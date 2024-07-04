@@ -1,7 +1,9 @@
+"use client"
+
 import { Navbar } from "@/components/sections/Navbar";
 import { HomePage } from "@/components/sections/Home";
 import Image from "next/image";
-import { Footer } from "@/components/sections/FooterComp";
+import { FootComp } from "@/components/sections/footcomp";
 import { About } from "@/components/sections/About";
 import { Background } from "@/components/UI/Background";
 
@@ -14,7 +16,7 @@ export default function Home() {
       <HomePage/>
       <About/>
     </div>
-    <Footer/>
+    <FootComp/>
     </main>
   );
 }

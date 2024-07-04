@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -5,7 +7,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-export const Footer = () => {
+export const FootComp = () => {
   return (
     <div className='w-full h-[8rem] flex flex-col gap-4 items-center justify-center bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 rounded-t-xl border-gray-500 border-t-[1px]'>
         <div className='w-fit grid grid-cols-3 grid-flow-col'>
