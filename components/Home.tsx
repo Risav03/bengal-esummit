@@ -2,7 +2,7 @@ import React from 'react'
 
 export const HomePage = () => {
   return (
-    <div>Page</div>
+    <div>Here goes the video</div>
   )
 }
 
