@@ -14,7 +14,7 @@ export const Navbar = () => {
   const router = useRouter();
 
   return (
-    <div className='fixed top-0 left-0 sm:h-screen max-sm:w-full sm:w-[4rem] flex sm:flex-col items-center justify-center'>
+    <div className='fixed top-0 left-0 z-[50] sm:h-screen max-sm:w-full sm:w-[4rem] flex sm:flex-col items-center justify-center'>
 
       <button className='absolute top-20 bg-red-500 p-5 w-[6rem] flex justify-end left-0 font-bold hover:bg-red-400 hover:-translate-x-8 -translate-x-10 duration-200 rounded-r-xl max-sm:hidden'><GiArchiveRegister/></button>
       <button className='absolute top-[90vh] right-5 bg-red-500 p-4 text-2xl font-bold hover:bg-red-400 hover:-translate-y-2 duration-200 sm:hidden rounded-full'><GiArchiveRegister/></button>

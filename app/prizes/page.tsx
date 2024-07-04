@@ -4,6 +4,7 @@ import { Navbar } from '@/components/sections/Navbar'
 import React, { useState } from 'react'
 import { Heading } from '@/components/heading/Heading'
 import { Footer } from '@/components/sections/FooterComp'
+import { Background } from '@/components/UI/Background'
 
 export default function Page () {
 
@@ -16,7 +17,8 @@ export default function Page () {
 
   return (
     <main className="bg-black">
-        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center justify-between'>
+        <Background/>
+        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
             <Navbar/>
             <Heading>Prizes</Heading>
             <div className='flex sm:flex-row max-sm:flex-col gap-20 h-[20rem] items-center'>
