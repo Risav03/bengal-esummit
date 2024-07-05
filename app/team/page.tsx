@@ -60,13 +60,19 @@ export default function Page () {
       img: img15,
       linkedIn: "https://www.linkedin.com/in/manila-das-523977227/",
       name: "Manila Das",
-      post: "PR Lead"
+      post: "Social Media Lead"
     },
     {
       img: img14,
       linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
       name: "Risavdeb Patra",
       post: "Web Dev Lead"
+    },
+     {
+      img: img8,
+      linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
+      name: "Anuran De",
+      post: "Database Lead"
     },
     {
       img: img6,
@@ -79,12 +85,6 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
       name: "Mayukh Mazumdar",
       post: "Sponsorship Lead"
-    },
-    {
-      img: img8,
-      linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
-      name: "Anuran De",
-      post: "DB & Web Dev Lead"
     },
     {
       img: img9,
