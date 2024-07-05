@@ -130,7 +130,7 @@ type PropTypes = {
           <Navbar/>
           <Heading>Our Team</Heading>
             
-            <div className='flex flex-wrap items-center justify-center gap-10 my-20'>
+            <div className='flex flex-wrap items-center justify-center gap-10 mt-20 mb-10'>
               {teamMap.map((item:PropTypes)=>(
                 <GalleryImage details={item} />
               ))}
