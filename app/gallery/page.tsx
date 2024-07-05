@@ -5,15 +5,13 @@ import React, { useState } from 'react'
 import { Heading } from '@/components/heading/Heading'
 import { FootComp } from '@/components/sections/footcomp'
 import { Background } from '@/components/UI/Background'
+import img1 from "@/assets/gallery/1.jpg"
+import img2 from "@/assets/gallery/2.jpg"
+import img3 from "@/assets/gallery/3.jpg"
+import img4 from "@/assets/gallery/4.jpg"
+import Image from 'next/image'
 
 export default function Page () {
-
-    const [prizeText, setPrizeText] = useState<string|null>("");
-
-    const firstPrize:string = "First Prize"
-    const secondPrize:string = "Second Prize"
-    const thirdPrize:string = "Third Prize"
-
 
   return (
     <main className="bg-black text-white">
@@ -21,8 +19,16 @@ export default function Page () {
         <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
             <Navbar />
             <Heading>Gallery</Heading>
-            
-
+            <div className='flex flex-col my-20 max-sm:w-full flex-wrap items-center justify-center gap-10'>
+              <div className='flex flex-row gap-10 flex-wrap justify-center'>
+                <Image src={img1} alt="img1" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img2} alt="img2"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+              </div>
+              <div className='flex flex-row gap-10 flex-wrap justify-center'>
+                <Image src={img3} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img4} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+              </div>
+            </div>
         </div>
         <FootComp/>
     </main>

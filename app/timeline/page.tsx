@@ -8,13 +8,6 @@ import { Background } from '@/components/UI/Background'
 
 export default function Page () {
 
-    const [prizeText, setPrizeText] = useState<string|null>("");
-
-    const firstPrize:string = "First Prize"
-    const secondPrize:string = "Second Prize"
-    const thirdPrize:string = "Third Prize"
-
-
   return (
     <main className="bg-black text-white">
         <Background/>
