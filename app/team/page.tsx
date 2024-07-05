@@ -74,11 +74,11 @@ export default function Page () {
       name: "Anuran De",
       post: "Database Lead"
     },
-    {
-      img: img13,
-      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
-      name: "Saranya Chattopadhyay",
-      post: "Corporate Relations Lead"
+     {
+      img: img11,
+      linkedIn: "https://www.linkedin.com/in/aahana-chowdhury-522837274/",
+      name: "Aahana Chowdhury",
+      post: "Content and Logistics Lead"
     },
     {
       img: img6,
@@ -93,6 +93,12 @@ export default function Page () {
       post: "Sponsorship Lead"
     },
     {
+      img: img13,
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+      name: "Saranya Chattopadhyay",
+      post: "Corporate Relations Lead"
+    },
+    {
       img: img9,
       linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
       name: "Prerona Paul",
@@ -103,7 +109,8 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/aahana-chowdhury-522837274/",
       name: "Aahana Chowdhury",
       post: "Content and Logistics Lead"
-    },{
+    },
+    {
       img: img12,
       linkedIn: "https://www.linkedin.com/in/sayantika-neogi-8b5a18274/",
       name: "Sayantika Neogi",
