@@ -93,11 +93,12 @@ export default function Page () {
       post: "PR Lead"
     },
     {
-      img: img10,
+      img: img13,
       linkedIn: "",
-      name: "Rajnandini Ghosh",
-      post: "Corporate Relations"
-    },{
+      name: "Saranya Chattopadhyay",
+      post: "Corporate Relations Lead"
+    },
+    {
       img: img11,
       linkedIn: "",
       name: "Aahana Chowdhury",
@@ -108,10 +109,10 @@ export default function Page () {
       name: "Sayantika Neogi",
       post: "Guest Relations"
     },{
-      img: img13,
+      img: img10,
       linkedIn: "",
-      name: "Saranya Chattopadhyay",
-      post: "Corporate Relations Lead"
+      name: "Rajnandini Ghosh",
+      post: "Corporate Relations"
     },
     
   ]
