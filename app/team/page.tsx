@@ -28,31 +28,31 @@ export default function Page () {
   const teamMap = [
     {
       img: img1,
-      linkedIn: "",
-      name: "Swapneel Chowdhury",
+      linkedIn: "https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b/",
+      name: "Swapneel Chaudhuri",
       post: "Event Head"
     },
     {
       img: img2,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/sagnik-sinha/",
       name: "Sagnik Sinha",
       post: "Event Head"
     },
     {
       img: img3,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/spandan-sarkar-65523322a/",
       name: "Spandan Sarkar",
       post: "Event Head"
     },
     {
       img: img4,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
       name: "Megha Biswas",
       post: "Event Head"
     },
     {
       img: img5,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/anushka-maji-1252b124a/",
       name: "Anushka Maji",
       post: "PR Lead"
     },
@@ -70,42 +70,42 @@ export default function Page () {
     },
     {
       img: img6,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/ayush-bera-b14b39227/",
       name: "Ayush Bera",
       post: "Collaboration Lead"
     },
     {
       img: img7,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
       name: "Mayukh Mazumdar",
       post: "Sponsorship Lead"
     },
     {
       img: img8,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
       name: "Anuran De",
       post: "DB & Web Dev Lead"
     },
     {
       img: img9,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
       name: "Prerona Paul",
       post: "PR Lead"
     },
     {
       img: img13,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
       name: "Saranya Chattopadhyay",
       post: "Corporate Relations Lead"
     },
     {
       img: img11,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/aahana-chowdhury-522837274/",
       name: "Aahana Chowdhury",
       post: "Content and Logistics Lead"
     },{
       img: img12,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/sayantika-neogi-8b5a18274/",
       name: "Sayantika Neogi",
       post: "Guest Relations"
     },{
