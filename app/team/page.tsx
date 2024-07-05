@@ -75,6 +75,12 @@ export default function Page () {
       post: "Database Lead"
     },
     {
+      img: img13,
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+      name: "Saranya Chattopadhyay",
+      post: "Corporate Relations Lead"
+    },
+    {
       img: img6,
       linkedIn: "https://www.linkedin.com/in/ayush-bera-b14b39227/",
       name: "Ayush Bera",
@@ -91,12 +97,6 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
       name: "Prerona Paul",
       post: "PR Lead"
-    },
-    {
-      img: img13,
-      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
-      name: "Saranya Chattopadhyay",
-      post: "Corporate Relations Lead"
     },
     {
       img: img11,
