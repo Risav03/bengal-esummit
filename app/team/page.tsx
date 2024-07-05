@@ -124,7 +124,7 @@ export default function Page () {
       post: "Guest Relations"
     },{
       img: img10,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/rajnandini-ghosh-401518204/",
       name: "Rajnandini Ghosh",
       post: "Corporate Relations"
     },
