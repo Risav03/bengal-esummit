@@ -93,10 +93,10 @@ export default function Page () {
       post: "Sponsorship Lead"
     },
     {
-      img: img13,
-      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
-      name: "Saranya Chattopadhyay",
-      post: "Corporate Relations Lead"
+      img: img8,
+      linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
+      name: "Anuran De",
+      post: "Database Management Lead"
     },
     {
       img: img9,
