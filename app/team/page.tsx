@@ -25,6 +25,21 @@ import { StaticImageData } from 'next/image'
 
 export default function Page () {
 
+  const teacherMap = [
+    {
+      img: img1,
+      linkedIn: "https://www.linkedin.com/in/dr-sanghamitra-poddar-870312113/",
+      name: "Dr. Sanghamitra Poddar",
+      post: "Event Head"
+    },
+    {
+      img: img1,
+      linkedIn: "https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b/",
+      name: "Swapneel Chaudhuri",
+      post: "Event Head"
+    }
+  ]
+
   const teamMap = [
     {
       img: img1,
@@ -92,12 +107,10 @@ export default function Page () {
       name: "Mayukh Mazumdar",
       post: "Sponsorship Lead"
     },
-    {
-      img: img8,
-      linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
-      name: "Anuran De",
-      post: "Database Management Lead"
-    },
+    {img: img13,
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+      name: "Saranya Chattopadhay",
+      post: "Corporate Relations Lead"},
     {
       img: img9,
       linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
@@ -130,6 +143,13 @@ type PropTypes = {
         <Background/>
         <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
           <Navbar/>
+          <Heading>Organizers</Heading>
+          <div className='flex flex-wrap items-center justify-center gap-10 mt-20 mb-10'>
+              {teacherMap.map((item:PropTypes)=>(
+                <GalleryImage details={item} />
+              ))}
+            </div>
+
           <Heading>Our Team</Heading>
             
             <div className='flex flex-wrap items-center justify-center gap-10 mt-20 mb-10'>
