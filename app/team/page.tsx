@@ -105,12 +105,6 @@ export default function Page () {
       post: "PR Lead"
     },
     {
-      img: img11,
-      linkedIn: "https://www.linkedin.com/in/aahana-chowdhury-522837274/",
-      name: "Aahana Chowdhury",
-      post: "Content and Logistics Lead"
-    },
-    {
       img: img12,
       linkedIn: "https://www.linkedin.com/in/sayantika-neogi-8b5a18274/",
       name: "Sayantika Neogi",
