@@ -57,6 +57,18 @@ export default function Page () {
       post: "PR Lead"
     },
     {
+      img: img15,
+      linkedIn: "https://www.linkedin.com/in/manila-das-523977227/",
+      name: "Manila Das",
+      post: "PR Lead"
+    },
+    {
+      img: img14,
+      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      name: "Risavdeb Patra",
+      post: "Web Dev Lead"
+    },
+    {
       img: img6,
       linkedIn: "",
       name: "Ayush Bera",
@@ -101,18 +113,6 @@ export default function Page () {
       name: "Saranya Chattopadhyay",
       post: "Corporate Relations Lead"
     },
-    {
-      img: img15,
-      linkedIn: "https://www.linkedin.com/in/manila-das-523977227/",
-      name: "Manila Das",
-      post: "PR Lead"
-    },
-    {
-      img: img14,
-      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
-      name: "Risavdeb Patra",
-      post: "Web Dev Lead"
-    }
     
   ]
 
