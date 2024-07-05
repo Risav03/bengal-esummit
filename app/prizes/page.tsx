@@ -43,7 +43,7 @@ export default function Page () {
 
             </div>
 
-            <Heading>Competetions</Heading>
+            <Heading>Competitions</Heading>
 
         </div>
         <FootComp/>
