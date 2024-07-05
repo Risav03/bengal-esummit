@@ -30,13 +30,13 @@ export default function Page () {
                         </div>}
                 
                 <div className='grid grid-flow-col grid-cols-3'>
-                    <div onClick={()=>{setPrizeText(secondPrize)}} className='cursor-pointer hover:brightness-125 duration-200 hover:-translate-y-2 bg-gradient-to-b from-gray-400/70 text-gray-200/70 to-gray-200/5 relative top-12 rounded-t-xl border-t-[1px] flex items-start justify-center h-[9rem] border-gray-300 w-[7rem] text-3xl font-semibold pt-8'>
+                    <div onClick={()=>{setPrizeText(secondPrize)}} className='cursor-pointer hover:brightness-125 duration-200 hover:-translate-y-2 bg-gradient-to-b from-gray-400/70 text-gray-200/70 to-gray-200/5 relative top-12 rounded-t-xl border-t-[1px] flex items-start justify-center h-[9rem] border-gray-300 sm:w-[7rem] w-[6rem] text-3xl font-semibold pt-8'>
                         2nd
                     </div>
-                    <div onClick={()=>{setPrizeText(firstPrize)}} className='cursor-pointer hover:brightness-125 duration-200 hover:-translate-y-2 bg-gradient-to-b from-yellow-500/70 text-yellow-200/70 to-yellow-200/5 rounded-t-xl border-t-[1px] flex items-start justify-center h-[12rem] border-yellow-300 w-[7rem] text-3xl font-semibold pt-8'>
+                    <div onClick={()=>{setPrizeText(firstPrize)}} className='cursor-pointer hover:brightness-125 duration-200 hover:-translate-y-2 bg-gradient-to-b from-yellow-500/70 text-yellow-200/70 to-yellow-200/5 rounded-t-xl border-t-[1px] flex items-start justify-center h-[12rem] border-yellow-300 sm:w-[7rem] w-[6rem] text-3xl font-semibold pt-8'>
                         1st
                     </div>
-                    <div onClick={()=>{setPrizeText(thirdPrize)}} className='cursor-pointer hover:brightness-125 duration-200 hover:-translate-y-2 bg-gradient-to-b from-orange-500/70 text-orange-200/70 to-orange-200/5 relative top-20 rounded-t-xl border-t-[1px] flex items-start justify-center h-[7rem] border-orange-300 w-[7rem] text-3xl font-semibold pt-8'>
+                    <div onClick={()=>{setPrizeText(thirdPrize)}} className='cursor-pointer hover:brightness-125 duration-200 hover:-translate-y-2 bg-gradient-to-b from-orange-500/70 text-orange-200/70 to-orange-200/5 relative top-20 rounded-t-xl border-t-[1px] flex items-start justify-center h-[7rem] border-orange-300 sm:w-[7rem] w-[6rem] text-3xl font-semibold pt-8'>
                         3rd
                     </div>
                 </div>
