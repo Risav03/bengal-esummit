@@ -20,6 +20,7 @@ import img12 from "@/assets/team/12.jpg"
 import img13 from "@/assets/team/13.jpg"
 import img14 from "@/assets/team/14.png"
 import img15 from "@/assets/team/15.jpeg"
+import img16 from "assets/team/sp.jpg"
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
@@ -27,7 +28,7 @@ export default function Page () {
 
   const teacherMap = [
     {
-      img: img1,
+      img: img16,
       linkedIn: "https://www.linkedin.com/in/dr-sanghamitra-poddar-870312113/",
       name: "Dr. Sanghamitra Poddar",
       post: "Event Head"
