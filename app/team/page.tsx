@@ -21,6 +21,7 @@ import img13 from "@/assets/team/13.jpg"
 import img14 from "@/assets/team/14.png"
 import img15 from "@/assets/team/15.jpeg"
 import img16 from "@/assets/team/sp.jpg"
+import img17 from "@/assets/team/maloy.jpg"
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
@@ -31,13 +32,13 @@ export default function Page () {
       img: img16,
       linkedIn: "https://www.linkedin.com/in/dr-sanghamitra-poddar-870312113/",
       name: "Dr. Sanghamitra Poddar",
-      post: "Event Head"
+      post: "Event Organiser"
     },
     {
-      img: img1,
+      img: img17,
       linkedIn: "https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b/",
-      name: "Swapneel Chaudhuri",
-      post: "Event Head"
+      name: "Malay Gangopadhyay",
+      post: "Event Organiser"
     }
   ]
 
