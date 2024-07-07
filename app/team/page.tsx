@@ -20,7 +20,7 @@ import img12 from "@/assets/team/12.jpg"
 import img13 from "@/assets/team/13.jpg"
 import img14 from "@/assets/team/14.png"
 import img15 from "@/assets/team/15.jpeg"
-import img16 from "assets/team/sp.jpg"
+import img16 from "@assets/team/sp.jpg"
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
