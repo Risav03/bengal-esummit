@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { Heading } from '@/components/heading/Heading'
 import { FootComp } from '@/components/sections/footcomp'
 import { Background } from '@/components/UI/Background'
-import img1 from "@/assets/team/1.jpg"
+import img1 from "@/assets/team/swap.jpg"
 import img2 from "@/assets/team/2.jpg"
 import img3 from "@/assets/team/3.jpg"
 import img4 from "@/assets/team/4.jpg"
@@ -15,7 +15,7 @@ import img7 from "@/assets/team/7.jpg"
 import img8 from "@/assets/team/8.jpg"
 import img9 from "@/assets/team/9.jpg"
 import img10 from "@/assets/team/10.jpg"
-import img11 from "@/assets/team/11.jpg"
+import img11 from "@/assets/team/aa.jpg"
 import img12 from "@/assets/team/12.jpg"
 import img13 from "@/assets/team/13.jpg"
 import img14 from "@/assets/team/14.png"
