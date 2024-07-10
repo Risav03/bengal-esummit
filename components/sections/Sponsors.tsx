@@ -3,7 +3,7 @@ import { Heading } from '../heading/Heading'
 
 export const Sponsors = () => {
   return (
-    <div className=' w-full flex flex-col items-center justify-center'>
+    <div className=' w-full flex flex-col items-center justify-center max-w-screen'>
         <div className='sm:px-20 px-4 sm:pt-16 w-full flex flex-col items-center justify-center sticky sm:-top-16 max-sm:-top-28 min-h-screen rounded-t-xl border-t-[2px] border-slate-700 pt-20 bg-gradient-to-b from-slate-900 to-slate-950'>
             <Heading>Our Collaborators</Heading>
         </div>
