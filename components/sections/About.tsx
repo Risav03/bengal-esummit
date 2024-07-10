@@ -8,7 +8,7 @@ import video from "../../assets/bganimation.mp4"
 
 export const About = () => {
   return (
-    <div className=' sm:px-20 px-4 w-[100%] sticky top-0 min-h-screen flex flex-col items-center justify-center rounded-t-xl border-t-[2px] border-slate-700 py-20 bg-gradient-to-b from-slate-900 to-slate-950 sm:py-16'>
+    <div className=' sm:px-20 px-4 w-[100%] sticky sm:-top-16 max-sm:-top-28 min-h-screen flex flex-col items-center justify-center rounded-t-xl border-t-[2px] border-slate-700 py-20 bg-gradient-to-b from-slate-900 to-slate-950 sm:py-16'>
         <Heading>About Us</Heading>
         <div className='flex sm:flex-row max-sm:flex-col gap-10 items-center w-full justify-center mt-10'>
             <div className='flex flex-col gap-5 my-5 sm:w-1/2'>

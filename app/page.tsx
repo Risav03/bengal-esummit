@@ -24,7 +24,6 @@ export default function Home() {
       <ReachUs/>
       <Faqs/>
     </div>
-    <FootComp/>
     </main>
   );
 }
