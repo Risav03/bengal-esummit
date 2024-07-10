@@ -113,6 +113,10 @@ export default function Page () {
       name: "Tannistha Neogi",
       post: "Graphics"
     },
+    {img: img13,
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+      name: "Soham Sengupta",
+      post: "Graphics"},
 
     {
       img: img14,
@@ -149,6 +153,7 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
       name: "Saranya Chattopadhay",
       post: "Outreach Lead"},
+
 
       {
         img: img9,
