@@ -12,9 +12,9 @@ import img4 from "@/assets/gallery/4.jpg"
 import img5 from "@/assets/gallery/5.jpg"
 import img6 from "@/assets/gallery/6.jpg"
 import img7 from "@/assets/gallery/7.jpg"
-import img8 from "@/assets/gallery/8.nef"
-import img9 from "@/assets/gallery/9.nef"
-import img10 from "@/assets/gallery/10.nef"
+// import img8 from "@/assets/gallery/8.nef"
+// import img9 from "@/assets/gallery/9.nef"
+// import img10 from "@/assets/gallery/10.nef"
 import Image from 'next/image'
 
 export default function Page () {
@@ -40,12 +40,12 @@ export default function Page () {
               </div>
               <div className='flex flex-row gap-10 flex-wrap justify-center'>
                 <Image src={img7} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
-                <Image src={img8} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+                {/* <Image src={img8} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/> */}
               </div>
-              <div className='flex flex-row gap-10 flex-wrap justify-center'>
+              {/* <div className='flex flex-row gap-10 flex-wrap justify-center'>
                 <Image src={img9} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
                 <Image src={img10} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
-              </div>
+              </div> */}
             </div>
         </div>
         <FootComp/>
