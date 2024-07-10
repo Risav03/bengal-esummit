@@ -13,7 +13,7 @@ import { Faqs } from "@/components/sections/Faqs";
 
 export default function Home() {
   return (
-    <main className="bg-black max-w-screen">
+    <main className="bg-black max-w-screen noscr">
       <Background/>
     <div className="flex relative z-[1] text-white flex-col items-center justify-between sm:py-0 pt-20">
       <Navbar/>
