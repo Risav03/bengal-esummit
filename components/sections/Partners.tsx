@@ -12,7 +12,7 @@ import lithium from '../../assets/partners/lithium_pills.png'
 import nasscom from '../../assets/partners/nasscom.png'
 
 const partnersList = [
-  casa, dm4, ecell, ia, iedc, il, lithium, nasscom
+  nasscom, iedc, il, ecell, ia,dm4, casa, lithium
 ];
 
 
