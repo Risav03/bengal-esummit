@@ -17,7 +17,7 @@ export const Navbar = () => {
   return (
     <div className='fixed top-0 left-0 z-[999999] sm:h-screen max-sm:w-full sm:w-[4rem] flex sm:flex-col items-center justify-center'>
 
-      <a href="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/viewform?edit_requested=true" target='_blank' className='absolute left-1/2 top-20 bg-red-500 p-5 items-center justify-center flex flex-row gap-4 font-bold hover:bg-red-400 hover:-translate-x-8 -translate-x-10 duration-200 rounded-r-xl max-sm:hidden'>Register <GiArchiveRegister/></a>
+      <a href="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/viewform?edit_requested=true" target='_blank' className='absolute left-1/2 top-16 bg-red-500 p-5 items-center justify-center flex flex-row gap-4 font-bold hover:bg-red-400 hover:-translate-x-8 -translate-x-10 duration-200 rounded-r-xl max-sm:hidden'>Register <GiArchiveRegister/></a>
       <a href="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/viewform?edit_requested=true" target="_blank" className='absolute top-[85dvh] right-5 bg-red-500 flex gap-2 items-center p-4 text-lg font-bold hover:bg-red-400 hover:-translate-y-2 duration-200 sm:hidden rounded-full'>Register <GiArchiveRegister/></a>
 
       <div className=' sm:w-full sm:rounded-r-xl max-sm:rounded-b-xl max-sm:flex max-sm:flex-row'>
