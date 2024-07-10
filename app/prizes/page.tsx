@@ -23,10 +23,10 @@ export default function Page () {
   return (
     <main className="bg-black text-white">
         <Background/>
-        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
             <Navbar/>
+        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col justify-start items-center relative z-[1]'>
             <Heading>Prizes</Heading>
-            <div className='flex sm:flex-row max-sm:flex-col gap-20 h-[20rem] items-center'>
+            {/* <div className='flex sm:flex-row max-sm:flex-col gap-20 h-[20rem] items-center'>
 
             {prizeText != "" ? <div className={`p-4 rounded-xl sm:w-[30rem] max-sm:w-[95%] flex flex-col items-center justify-start h-[15rem] border-y-[1px] ${prizeText == firstPrize && "text-yellow-200 border-yellow-400"} ${prizeText == secondPrize && "text-gray-200 border-gray-400"} ${prizeText == thirdPrize && "text-orange-200 border-orange-400"}`}>
                     <h2 className='text-[1.5rem] font-bold'>{prizeText}</h2>
@@ -47,10 +47,15 @@ export default function Page () {
                     </div>
                 </div>
 
+            </div> */}
+            <div className='w-full items-center flex-col flex justify-center mt-20'>
+                <h3 className='text-white text-center w-full mx-auto sm:text-[3rem] text-[2rem] font-bold' >Prizes worth <span className='bg-gradient-to-b from-green-800 via-green-400 to-green-600 text-transparent bg-clip-text'>₹ 1,50,000</span></h3>
+                    <h4>--More to be revealed soon!--</h4>
+
             </div>
 
-            <Heading>Competetions</Heading>
-            --to be added later--
+            {/* <Heading>Competetions</Heading>
+            --to be added later-- */}
         </div>
         <FootComp/>
     </main>
