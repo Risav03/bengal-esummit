@@ -13,9 +13,9 @@ import { Faqs } from "@/components/sections/Faqs";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="bg-black max-w-screen">
       <Background/>
-    <div className="flex relative z-[1] text-white flex-col overflow-x-hidden items-center justify-between sm:py-0 pt-20">
+    <div className="flex relative z-[1] text-white flex-col items-center justify-between sm:py-0 pt-20">
       <Navbar/>
       <HomePage/>
       <About/>
