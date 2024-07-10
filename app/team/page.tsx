@@ -22,6 +22,7 @@ import img14 from "@/assets/team/14.png"
 import img15 from "@/assets/team/15.jpeg"
 import img16 from "@/assets/team/sp.jpg"
 import img17 from "@/assets/team/maloy.jpg"
+import img18 from "@/assets/team/subrabhataSir.jpeg"
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
@@ -39,6 +40,12 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b/",
       name: "Malay Gangopadhyay",
       post: "Event Organiser"
+    },
+    {
+      img: img18,
+      linkedIn: "",
+      name: "Subhabrata Banerjee",
+      post: "Event Organiser"
     }
   ]
 
@@ -47,25 +54,25 @@ export default function Page () {
       img: img1,
       linkedIn: "https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b/",
       name: "Swapneel Chaudhuri",
-      post: "Event Head"
+      post: "Management"
     },
     {
       img: img2,
       linkedIn: "https://www.linkedin.com/in/sagnik-sinha/",
       name: "Sagnik Sinha",
-      post: "Event Head"
+      post: "Management"
     },
     {
       img: img3,
       linkedIn: "https://www.linkedin.com/in/spandan-sarkar-65523322a/",
       name: "Spandan Sarkar",
-      post: "Event Head"
+      post: "Collaboration"
     },
     {
       img: img4,
       linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
       name: "Megha Biswas",
-      post: "Event Head"
+      post: "Social Media Management"
     },
     {
       img: img5,
