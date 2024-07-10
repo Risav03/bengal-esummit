@@ -9,7 +9,7 @@ import img1 from "@/assets/team/swap.jpg"
 import img2 from "@/assets/team/2.jpg"
 import img3 from "@/assets/team/3.jpg"
 import img4 from "@/assets/team/4.jpg"
-import img5 from "@/assets/team/5.jpg"
+import img5 from "@/assets/team/5.jpeg"
 import img6 from "@/assets/team/6.jpg"
 import img7 from "@/assets/team/7.jpg"
 import img8 from "@/assets/team/8.jpg"
@@ -23,6 +23,7 @@ import img15 from "@/assets/team/15.jpeg"
 import img16 from "@/assets/team/sp.jpg"
 import img17 from "@/assets/team/maloy.jpg"
 import img18 from "@/assets/team/subrabhataSir.jpeg"
+import img19 from "@/assets/team/abhijeetsir.jpeg"
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
@@ -32,19 +33,25 @@ export default function Page () {
     {
       img: img16,
       linkedIn: "https://www.linkedin.com/in/dr-sanghamitra-poddar-870312113/",
-      name: "Dr. Sanghamitra Poddar",
+      name: "Prof. Dr. Sanghamitra Poddar",
       post: "Event Organiser"
     },
     {
       img: img17,
       linkedIn: "https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b/",
-      name: "Malay Gangopadhyay",
+      name: "Prof. Dr. Malay Gangopadhyay",
       post: "Event Organiser"
     },
     {
       img: img18,
       linkedIn: "",
-      name: "Subhabrata Banerjee",
+      name: "Prof. Dr. Subhabrata Banerjee",
+      post: "Event Organiser"
+    },
+    {
+      img: img19,
+      linkedIn: "https://in.linkedin.com/in/avijit-bose-29328977",
+      name: "Prof. Dr. Abhijeet Bose",
       post: "Event Organiser"
     }
   ]
