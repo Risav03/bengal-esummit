@@ -99,6 +99,28 @@ export default function Page () {
       name: "Risavdeb Patra",
       post: "Web Dev Lead"
     },
+
+    {
+      img: img14,
+      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      name: "Sayak Sarkar",
+      post: "Web Dev"
+    },
+
+    {
+      img: img14,
+      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      name: "Tannistha Neogi",
+      post: "Graphics"
+    },
+
+    {
+      img: img14,
+      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      name: "Dibyadarshi Das",
+      post: "Graphics"
+    },
+
      {
       img: img8,
       linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
@@ -126,7 +148,15 @@ export default function Page () {
     {img: img13,
       linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
       name: "Saranya Chattopadhay",
-      post: "Corporate Relations Lead"},
+      post: "Outreach Lead"},
+
+      {
+        img: img9,
+        linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
+        name: "Pritha Saha",
+        post: "Corporate Relations Lead"
+      },
+
     {
       img: img9,
       linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
