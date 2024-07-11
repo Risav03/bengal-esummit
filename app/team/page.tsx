@@ -31,6 +31,13 @@ import sayak from "@/assets/team/sayak.png"
 import soham from "@/assets/team/soham.jpeg"
 import tannistha from "@/assets/team/tann.jpeg"
 
+import gobinda from "@/assets/team/gobinda.jpeg"
+import sutanu from "@/assets/team/sutanu.jpeg"
+
+import ardhendu from "@/assets/team/ardhendu.jpeg"
+import sayan from "@/assets/team/sayan.jpeg"
+import indranil from "@/assets/team/indranil.jpeg"
+
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
@@ -51,16 +58,46 @@ export default function Page () {
     },
     {
       img: img18,
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/subhabrata-banerjee-3aa6ba221/",
       name: "Prof. Dr. Subhabrata Banerjee",
       post: "Event Organiser"
     },
     {
       img: img19,
       linkedIn: "https://in.linkedin.com/in/avijit-bose-29328977",
-      name: "Prof. Dr. Abhijeet Bose",
+      name: "Prof. Avijit Bose",
       post: "Event Organiser"
-    }
+    }, {
+      img: indranil,
+      linkedIn: "https://www.linkedin.com/in/dr-indranil-maity-0860b662/",
+      name: "Prof. Indranil Maity",
+      post: "Event Organiser"
+    },
+    {
+      img: sutanu,
+      linkedIn: "https://www.linkedin.com/in/sutanu-ghosh-29a47b1b/",
+      name: "Prof. Sutanu Ghosh",
+      post: "Event Organiser"
+    },
+    {
+      img: gobinda,
+      linkedIn: "https://www.linkedin.com/in/dr-gobinda-sen-666846a8/",
+      name: "Prof. Dr. Gobinda Sen",
+      post: "Event Organiser"
+    },
+    {
+      img: sayan,
+      linkedIn: "",
+      name: "Prof. Sayan Sarkar",
+      post: "Event Organiser"
+    },
+    {
+      img: ardhendu,
+      linkedIn: "https://www.linkedin.com/in/ardhendu-kundu-6239abab",
+      name: "Prof. Ardhendu Kundu",
+      post: "Event Organiser"
+    },
+    
   ]
 
   const teamMap = [
