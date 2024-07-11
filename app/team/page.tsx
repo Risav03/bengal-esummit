@@ -24,6 +24,13 @@ import img16 from "@/assets/team/sp.jpg"
 import img17 from "@/assets/team/maloy.jpg"
 import img18 from "@/assets/team/subrabhataSir.jpeg"
 import img19 from "@/assets/team/abhijeetsir.jpeg"
+
+import pritha from "@/assets/team/pritha.jpeg"
+import dibya from "@/assets/team/dibyadarshi.png"
+import sayak from "@/assets/team/sayak.png"
+import soham from "@/assets/team/soham.jpeg"
+import tannistha from "@/assets/team/tann.jpeg"
+
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
@@ -101,28 +108,28 @@ export default function Page () {
     },
 
     {
-      img: img14,
-      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      img: sayak,
+      linkedIn: "https://www.linkedin.com/in/sayaksarkar02/",
       name: "Sayak Sarkar",
       post: "Web Dev"
     },
 
     {
-      img: img14,
-      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      img: tannistha,
+      linkedIn: "https://www.linkedin.com/in/tannisthaneogy/",
       name: "Tannistha Neogi",
       post: "Graphics"
     },
-    {img: img13,
-      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+    {img: soham,
+      linkedIn: "https://www.linkedin.com/in/soham-sengupta-306103228/",
       name: "Soham Sengupta",
       post: "Graphics"},
 
     {
-      img: img14,
-      linkedIn: "https://www.linkedin.com/in/risavdeb-patra-703971227/",
+      img: dibya,
+      linkedIn: "https://www.linkedin.com/in/dibyadarshi-das-b2b985227/",
       name: "Dibyadarshi Das",
-      post: "Graphics"
+      post: "Collaboration"
     },
 
      {
@@ -130,6 +137,12 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
       name: "Anuran De",
       post: "Database Lead"
+    },
+    {
+      img: pritha,
+      linkedIn: "https://www.linkedin.com/in/prithasaha777/",
+      name: "Pritha Saha",
+      post: "Corporate Relations Lead"
     },
      {
       img: img11,
@@ -153,14 +166,6 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
       name: "Saranya Chattopadhay",
       post: "Outreach Lead"},
-
-
-      {
-        img: img9,
-        linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
-        name: "Pritha Saha",
-        post: "Corporate Relations Lead"
-      },
 
     {
       img: img9,
@@ -194,7 +199,7 @@ type PropTypes = {
         <Background/>
         <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
           <Navbar/>
-          <Heading>Organizers</Heading>
+          <Heading>Organisers</Heading>
           <div className='flex flex-wrap items-center justify-center gap-10 mt-20 mb-10'>
               {teacherMap.map((item:PropTypes)=>(
                 <GalleryImage details={item} />

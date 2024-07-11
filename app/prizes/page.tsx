@@ -49,7 +49,8 @@ export default function Page () {
 
             </div> */}
             <div className='w-full items-center flex-col flex justify-center mt-20'>
-                <h3 className='text-white text-center w-full mx-auto sm:text-[3rem] text-[2rem] font-bold' >Prizes worth <span className='bg-gradient-to-b from-green-800 via-green-400 to-green-600 text-transparent bg-clip-text'>₹ 1,50,000</span></h3>
+                <h3 className='text-white text-center w-full mx-auto sm:text-[3rem] text-[2rem] font-bold' >Prizes worth </h3>
+                <h3 className='bg-gradient-to-b from-green-800 sm:text-[3.2rem] text-[2.3rem] font-bold via-green-400 to-green-600 text-transparent bg-clip-text'>₹1,50,000</h3>
                     <h4>--More to be revealed soon!--</h4>
 
             </div>

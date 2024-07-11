@@ -18,12 +18,12 @@ const partnersList = [
 
 export const Partners = () => {
   return (
-    <div className=' sm:px-20 px-4 w-[100%] max-w-screen sticky sm:-top-16 max-sm:-top-28 h-[150vh] min-h-screen flex flex-col items-start justify-start rounded-t-xl border-t-[2px] border-slate-700 py-20 bg-gradient-to-b from-slate-900 to-slate-950 sm:py-16'>
+    <div className=' sm:px-20 px-4 w-[100%] max-w-screen sticky sm:-top-16 max-sm:-top-60 h-[150vh] min-h-screen flex flex-col items-start justify-start rounded-t-xl border-t-[2px] border-slate-700 py-20 bg-gradient-to-b from-slate-900 to-slate-950 sm:py-16'>
         <Heading>Partners</Heading>
         <div className='my-20 w-[90%] mx-auto grid grid-cols-4 items-center justify-center max-md:grid-cols-2 gap-20'>
           {partnersList.map((item, index)=>(
             <div className=' overflow-hidden w-full h-full'>
-            <Image src={item} alt="partner1" className='w-full h-full object-contain'/>
+            <Image src={item} alt="partner1" className='w-full h-full object-contain bg-white'/>
           </div>))}
         </div>
     </div>
