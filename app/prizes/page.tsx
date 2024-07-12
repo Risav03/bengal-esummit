@@ -32,7 +32,7 @@ export default function Page () {
         },
         {
             event: "Content Creators Conclave",
-            prize: "₹15,000",
+            prize: "",
             color: "red"
         },
         {
@@ -62,7 +62,7 @@ export default function Page () {
         },
         {
             event: "Social Media Campaign",
-            prize: "Giveaways",
+            prize: "₹10,000",
             color: "teal"
         },
         
@@ -89,7 +89,7 @@ export default function Page () {
                 <h3 className='text-white text-center w-full mx-auto sm:text-[3rem] text-[2rem] font-bold' >Prizes worth </h3>
                 <h3 className='bg-gradient-to-b from-green-800 sm:text-[3.2rem] text-[2.3rem] font-bold via-green-400 to-green-600 text-transparent bg-clip-text'>₹1,50,000</h3>
                 
-                <div className='flex flex-wrap gap-10 items-center mt-10'>
+                <div className='flex flex-wrap gap-10 items-center mt-10 w-full'>
                     {
                         prizes.map((item:PropTypes)=>(
                             <div className={`w-[25rem] flex flex-col items-center justify-center h-[12rem] bg-white/30 border-white/50 border-[1px] rounded-xl `}>
