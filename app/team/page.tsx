@@ -24,6 +24,7 @@ import img16 from "@/assets/team/sp.jpg"
 import img17 from "@/assets/team/maloy.jpg"
 import img18 from "@/assets/team/subrabhataSir.jpeg"
 import img19 from "@/assets/team/abhijeetsir.jpeg"
+import meghna from "@/assets/team/meghna.jpeg"
 
 import pritha from "@/assets/team/pritha.jpeg"
 import dibya from "@/assets/team/dibyadarshi.png"
@@ -36,7 +37,7 @@ import sutanu from "@/assets/team/sutanu.jpeg"
 
 import ardhendu from "@/assets/team/ardhendu.jpeg"
 import sayan from "@/assets/team/sayan.jpeg"
-import indranil from "@/assets/team/indranil.jpeg"
+import indranil from "@/assets/team/indranil.jpg"
 
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
@@ -198,6 +199,12 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
       name: "Mayukh Mazumdar",
       post: "Sponsorship Lead"
+    },
+    {
+      img: meghna,
+      linkedIn: "https://www.linkedin.com/in/meghna-bardhan/",
+      name: "Meghna Bardhan",
+      post: "Workshop and Guest Relations"
     },
     {img: img13,
       linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
