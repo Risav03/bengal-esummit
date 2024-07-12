@@ -208,7 +208,7 @@ export default function Page () {
     },
     {img: img13,
       linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
-      name: "Saranya Chattopadhay",
+      name: "Saranya Chattopadhyay",
       post: "Outreach Lead"},
 
     {
