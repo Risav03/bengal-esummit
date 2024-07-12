@@ -157,17 +157,15 @@ export default function Page () {
       post: "Workshop and Guest Relations"
     },
     {
-      img: img6,
-      linkedIn: "https://www.linkedin.com/in/ayush-bera-b14b39227/",
-      name: "Ayush Bera",
-      post: "Collaboration Lead"
+      img: sayak,
+      linkedIn: "https://www.linkedin.com/in/sayaksarkar02/",
+      name: "Sayak Sarkar",
+      post: "Web Dev"
     },
-    {
-      img: img7,
-      linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
-      name: "Mayukh Mazumdar",
-      post: "Sponsorship Lead"
-    },
+    {img: img13,
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+      name: "Saranya Chattopadhyay",
+      post: "Outreach Lead"},
        {
       img: img8,
       linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
@@ -180,23 +178,25 @@ export default function Page () {
       name: "Aahana Chowdhury",
       post: "Content and Logistics Lead"
     },
-     {img: img13,
-      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
-      name: "Saranya Chattopadhyay",
-      post: "Outreach Lead"},
+
         {
       img: img9,
       linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
       name: "Prerona Paul",
       post: "PR Lead"
     },
-    {
-      img: sayak,
-      linkedIn: "https://www.linkedin.com/in/sayaksarkar02/",
-      name: "Sayak Sarkar",
-      post: "Web Dev"
+{
+      img: img6,
+      linkedIn: "https://www.linkedin.com/in/ayush-bera-b14b39227/",
+      name: "Ayush Bera",
+      post: "Collaboration Lead"
     },
-
+    {
+      img: img7,
+      linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
+      name: "Mayukh Mazumdar",
+      post: "Sponsorship Lead"
+    },
     {
       img: tannistha,
       linkedIn: "https://www.linkedin.com/in/tannisthaneogy/",
