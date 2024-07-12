@@ -71,13 +71,13 @@ export default function Page () {
     }, {
       img: indranil,
       linkedIn: "https://www.linkedin.com/in/dr-indranil-maity-0860b662/",
-      name: "Prof. Indranil Maity",
+      name: "Prof. Dr. Indranil Maity",
       post: "Event Organiser"
     },
     {
       img: sutanu,
       linkedIn: "https://www.linkedin.com/in/sutanu-ghosh-29a47b1b/",
-      name: "Prof. Sutanu Ghosh",
+      name: "Prof. Dr. Sutanu Ghosh",
       post: "Event Organiser"
     },
     {
