@@ -154,7 +154,7 @@ export default function Page () {
       img: img7,
       linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
       name: "Mayukh Mazumdar",
-      post: "Collaboratoion Lead"
+      post: "Collaboration Lead"
     },
     {
       img: pritha,
@@ -242,7 +242,7 @@ export default function Page () {
     {
       img: suryangshu,
       linkedIn: "https://www.linkedin.com/in/surjyanshu-ghosh-8015b722a",
-      name: "Suryangshu Ghosh",
+      name: "Surjyangshu Ghosh",
       post: "Collaboration"
     },
     {
