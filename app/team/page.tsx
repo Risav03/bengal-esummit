@@ -25,7 +25,6 @@ import img17 from "@/assets/team/maloy.jpg"
 import img18 from "@/assets/team/subrabhataSir.jpeg"
 import img19 from "@/assets/team/abhijeetsir.jpeg"
 import meghna from "@/assets/team/meghna.jpeg"
-import nira from "@/assets/team/nira.jpg"
 
 import pritha from "@/assets/team/pritha.jpeg"
 import dibya from "@/assets/team/dibyadarshi.png"
@@ -158,6 +157,28 @@ export default function Page () {
       post: "Collaboratoion Lead"
     },
     {
+      img: pritha,
+      linkedIn: "https://www.linkedin.com/in/prithasaha777/",
+      name: "Pritha Saha",
+      post: "Corporate Relations Lead"
+    },
+    {
+      img: meghna,
+      linkedIn: "https://www.linkedin.com/in/meghna-bardhan/",
+      name: "Meghna Bardhan",
+      post: "Workshop and Guest Relations Lead"
+    },
+    {
+      img: sayak,
+      linkedIn: "https://www.linkedin.com/in/sayaksarkar02/",
+      name: "Sayak Sarkar",
+      post: "Web Dev"
+    },
+    {img: img13,
+      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
+      name: "Saranya Chattopadhyay",
+      post: "Outreach Lead"},
+    {
       img: tannistha,
       linkedIn: "https://www.linkedin.com/in/tannisthaneogy/",
       name: "Tannistha Neogi",
@@ -186,28 +207,7 @@ export default function Page () {
       name: "Dibyadarshi Das",
       post: "Collaboration"
     },
-    {
-      img: pritha,
-      linkedIn: "https://www.linkedin.com/in/prithasaha777/",
-      name: "Pritha Saha",
-      post: "Corporate Relations Lead"
-    },
-    {
-      img: meghna,
-      linkedIn: "https://www.linkedin.com/in/meghna-bardhan/",
-      name: "Meghna Bardhan",
-      post: "Workshop and Guest Relations Lead"
-    },
-    {
-      img: sayak,
-      linkedIn: "https://www.linkedin.com/in/sayaksarkar02/",
-      name: "Sayak Sarkar",
-      post: "Web Dev"
-    },
-    {img: img13,
-      linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
-      name: "Saranya Chattopadhyay",
-      post: "Outreach Lead"},
+    
        {
       img: img8,
       linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
@@ -227,12 +227,7 @@ export default function Page () {
       name: "Prerona Paul",
       post: "PR Lead"
     },
-  {
-      img: nira,
-      linkedIn: "https://www.linkedin.com/in/nirajana-pal-903338274/",
-      name: "Nirajana Pal",
-      post: "Graphics"
-    },
+  
     {
       img: img12,
       linkedIn: "https://www.linkedin.com/in/sayantika-neogi-8b5a18274/",
