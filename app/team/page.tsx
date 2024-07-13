@@ -52,7 +52,7 @@ export default function Page () {
   const president = {
       img: director,
       linkedIn: "https://www.linkedin.com/in/csatyajit/",
-      name: "Prof. Dr. Satyajit Charakbarti",
+      name: "Prof. Dr. Satyajit Chakrabarti",
       post: "Event Organiser"
   }
 
