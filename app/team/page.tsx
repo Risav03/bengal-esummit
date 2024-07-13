@@ -189,16 +189,16 @@ export default function Page () {
       name: "Soham Sengupta",
       post: "Graphics Lead"},
       {
+        img: img4,
+        linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
+        name: "Megha Biswas",
+        post: "Social Media Lead"
+      },
+      {
         img: img3,
         linkedIn: "https://www.linkedin.com/in/spandan-sarkar-65523322a/",
         name: "Spandan Sarkar",
         post: "Collaboration"
-      },
-      {
-        img: img4,
-        linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
-        name: "Megha Biswas",
-        post: "Social Media"
       },
 
     {
