@@ -25,6 +25,7 @@ import img17 from "@/assets/team/maloy.jpg"
 import img18 from "@/assets/team/subrabhataSir.jpeg"
 import img19 from "@/assets/team/abhijeetsir.jpeg"
 import meghna from "@/assets/team/meghna.jpeg"
+import nira from "@/assets/team/niru.jpg"
 
 import pritha from "@/assets/team/pritha.jpeg"
 import dibya from "@/assets/team/dibyadarshi.png"
@@ -226,7 +227,12 @@ export default function Page () {
       name: "Prerona Paul",
       post: "PR Lead"
     },
-  
+  {
+      img: nira,
+      linkedIn: "https://www.linkedin.com/in/nirajana-pal-903338274/",
+      name: "Nirajana Pal",
+      post: "Graphics"
+    },
     {
       img: img12,
       linkedIn: "https://www.linkedin.com/in/sayantika-neogi-8b5a18274/",
