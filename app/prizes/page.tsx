@@ -28,7 +28,7 @@ export default function Page () {
         },
         {
             event: "Start-up Expo",
-            prize: "₹30,000",
+            prize: "₹25,000",
             color: "bg-yellow-400/60",
             text: "bg-gradient-to-b from-yellow-400 via-yellow-100 to-yellow-300 text-transparent bg-clip-text"
         },
@@ -52,7 +52,7 @@ export default function Page () {
         },
         {
             event: "Mind Masters",
-            prize: "₹15,000",
+            prize: "₹10,000",
             color: "bg-sky-500/60",
             text: "bg-gradient-to-b from-sky-400 via-sky-100 to-sky-300 text-transparent bg-clip-text"
         },

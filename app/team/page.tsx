@@ -39,10 +39,22 @@ import ardhendu from "@/assets/team/ardhendu.jpeg"
 import sayan from "@/assets/team/sayan.jpeg"
 import indranil from "@/assets/team/indranil.jpg"
 
+import suryangshu from "@/assets/team/suryangshu.jpeg"
+import subhradip from "@/assets/team/subradip.jpeg"
+
+import director from "@/assets/team/director.jpeg"
+
 import { GalleryImage } from '@/components/UI/GalleryImage'
 import { StaticImageData } from 'next/image'
 
 export default function Page () {
+
+  const president = {
+      img: director,
+      linkedIn: "https://www.linkedin.com/in/csatyajit/",
+      name: "Prof. Dr. Satyajit Charakbarti",
+      post: "Event Organiser"
+  }
 
   const teacherMap = [
     {
@@ -115,18 +127,6 @@ export default function Page () {
       post: "Management"
     },
     {
-      img: img3,
-      linkedIn: "https://www.linkedin.com/in/spandan-sarkar-65523322a/",
-      name: "Spandan Sarkar",
-      post: "Collaboration"
-    },
-    {
-      img: img4,
-      linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
-      name: "Megha Biswas",
-      post: "Social Media Management"
-    },
-    {
       img: img5,
       linkedIn: "https://www.linkedin.com/in/anushka-maji-1252b124a/",
       name: "Anushka Maji",
@@ -144,7 +144,48 @@ export default function Page () {
       name: "Risavdeb Patra",
       post: "Web Dev Lead"
     },
-{
+    {
+      img: img6,
+      linkedIn: "https://www.linkedin.com/in/ayush-bera-b14b39227/",
+      name: "Ayush Bera",
+      post: "PR & Collaboration Lead"
+    },
+    {
+      img: img7,
+      linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
+      name: "Mayukh Mazumdar",
+      post: "Collaboratoion Lead"
+    },
+    {
+      img: tannistha,
+      linkedIn: "https://www.linkedin.com/in/tannisthaneogy/",
+      name: "Tannistha Neogi",
+      post: "Graphics Lead"
+    },
+    {img: soham,
+      linkedIn: "https://www.linkedin.com/in/soham-sengupta-306103228/",
+      name: "Soham Sengupta",
+      post: "Graphics Lead"},
+      {
+        img: img3,
+        linkedIn: "https://www.linkedin.com/in/spandan-sarkar-65523322a/",
+        name: "Spandan Sarkar",
+        post: "Collaboration"
+      },
+      {
+        img: img4,
+        linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
+        name: "Megha Biswas",
+        post: "Social Media"
+      },
+
+    {
+      img: dibya,
+      linkedIn: "https://www.linkedin.com/in/dibyadarshi-das-b2b985227/",
+      name: "Dibyadarshi Das",
+      post: "Collaboration"
+    },
+    {
       img: pritha,
       linkedIn: "https://www.linkedin.com/in/prithasaha777/",
       name: "Pritha Saha",
@@ -154,7 +195,7 @@ export default function Page () {
       img: meghna,
       linkedIn: "https://www.linkedin.com/in/meghna-bardhan/",
       name: "Meghna Bardhan",
-      post: "Workshop and Guest Relations"
+      post: "Workshop and Guest Relations Lead"
     },
     {
       img: sayak,
@@ -185,35 +226,6 @@ export default function Page () {
       name: "Prerona Paul",
       post: "PR Lead"
     },
-{
-      img: img6,
-      linkedIn: "https://www.linkedin.com/in/ayush-bera-b14b39227/",
-      name: "Ayush Bera",
-      post: "Collaboration Lead"
-    },
-    {
-      img: img7,
-      linkedIn: "https://www.linkedin.com/in/mayukh-majumder-83a19620b/",
-      name: "Mayukh Mazumdar",
-      post: "Sponsorship Lead"
-    },
-    {
-      img: tannistha,
-      linkedIn: "https://www.linkedin.com/in/tannisthaneogy/",
-      name: "Tannistha Neogi",
-      post: "Graphics"
-    },
-    {img: soham,
-      linkedIn: "https://www.linkedin.com/in/soham-sengupta-306103228/",
-      name: "Soham Sengupta",
-      post: "Graphics"},
-
-    {
-      img: dibya,
-      linkedIn: "https://www.linkedin.com/in/dibyadarshi-das-b2b985227/",
-      name: "Dibyadarshi Das",
-      post: "Collaboration"
-    },
   
     {
       img: img12,
@@ -225,6 +237,18 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/rajnandini-ghosh-401518204/",
       name: "Rajnandini Ghosh",
       post: "Corporate Relations"
+    },
+    {
+      img: suryangshu,
+      linkedIn: "https://www.linkedin.com/in/surjyanshu-ghosh-8015b722a",
+      name: "Suryangshu Ghosh",
+      post: "Collaboration"
+    },
+    {
+      img: subhradip,
+      linkedIn: "https://www.linkedin.com/in/subhradip-sarkar-977b88239/",
+      name: "Subhradip Sarkar",
+      post: "Collaboration"
     },
     
   ]
@@ -242,6 +266,8 @@ type PropTypes = {
         <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
           <Navbar/>
           <Heading>Organisers</Heading>
+          <div className='h-20'></div>
+          <GalleryImage details ={president}/>
           <div className='flex flex-wrap items-center justify-center gap-10 mt-20 mb-10'>
               {teacherMap.map((item:PropTypes)=>(
                 <GalleryImage details={item} />
