@@ -232,7 +232,7 @@ export default function Page () {
       img: nira,
       linkedIn: "https://www.linkedin.com/in/nirajana-pal-903338274/",
       name: "Nirajana Pal",
-      post: "Content and Grpahics"
+      post: "Content and Graphics"
     },
   
     {
