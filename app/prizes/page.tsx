@@ -126,7 +126,7 @@ export default function Page () {
         <Background/>
             <Navbar/>
         <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col justify-start items-center relative z-[1]'>
-            <Heading>Prizes</Heading>
+            <Heading>Events & Prizes</Heading>
             
             <div className='w-full items-center flex-col flex justify-center my-5'>
                 <h3 className='text-white text-center w-full mx-auto sm:text-[3rem] text-[2rem] font-bold' >Prizes worth </h3>
