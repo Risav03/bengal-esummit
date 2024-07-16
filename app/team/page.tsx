@@ -249,7 +249,7 @@ export default function Page () {
     {
       img: suryangshu,
       linkedIn: "https://www.linkedin.com/in/surjyanshu-ghosh-8015b722a",
-      name: "Surjyangshu Ghosh",
+      name: "Surjyanshu Ghosh",
       post: "Collaboration"
     },
     {
