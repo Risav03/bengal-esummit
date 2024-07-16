@@ -22,29 +22,29 @@ export default function Page () {
   return (
     <main className="bg-black text-white">
         <Background/>
-        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
+        <div className='md:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
             <Navbar />
             <Heading>Gallery</Heading>
-            <div className='flex flex-col my-20 max-sm:w-full flex-wrap items-center justify-center gap-10'>
+            <div className='flex flex-col my-20 max-md:w-full flex-wrap items-center justify-center gap-10'>
               <div className='flex flex-row gap-10 flex-wrap justify-center'>
-                <Image src={img1} alt="img1" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
-                <Image src={img2} alt="img2"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+                <Image src={img1} alt="img1" className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img2} alt="img2"className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
               </div>
               <div className='flex flex-row gap-10 flex-wrap justify-center'>
-                <Image src={img3} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
-                <Image src={img4} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+                <Image src={img3} alt="img3" className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img4} alt="img4"className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
               </div>
               {/* <div className='flex flex-row gap-10 flex-wrap justify-center'>
-                <Image src={img5} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
-                <Image src={img6} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+                <Image src={img5} alt="img3" className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img6} alt="img4"className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
               </div>
               <div className='flex flex-row gap-10 flex-wrap justify-center'>
-                <Image src={img7} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
-                <Image src={img8} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+                <Image src={img7} alt="img3" className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img8} alt="img4"className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
               </div> */}
               {/* <div className='flex flex-row gap-10 flex-wrap justify-center'>
-                <Image src={img9} alt="img3" className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
-                <Image src={img10} alt="img4"className='w-[30rem] max-sm:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
+                <Image src={img9} alt="img3" className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600' />
+                <Image src={img10} alt="img4"className='w-[30rem] max-md:w-[90%] rounded-xl border-y-[2px] border-blue-600'/>
               </div> */}
             </div>
         </div>

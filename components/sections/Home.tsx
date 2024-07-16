@@ -20,7 +20,7 @@ export const HomePage = () => {
           repeat: Infinity,
           repeatType: "loop"
         }}
-        className="flex items-center justify-center max-sm:hidden text-white"
+        className="flex items-center justify-center max-md:hidden text-white"
       >
           <Image src={leftArrow} className='w-[40rem] mx-auto' alt="bengal summit logo"/>
         
@@ -45,7 +45,7 @@ export const HomePage = () => {
           repeat: Infinity,
           repeatType: "loop"
         }}
-        className="flex items-center justify-center max-sm:hidden text-white"
+        className="flex items-center justify-center max-md:hidden text-white"
       >
           <Image src={rightArrow} className='w-[40rem] mx-auto' alt="bengal summit logo"/>
         

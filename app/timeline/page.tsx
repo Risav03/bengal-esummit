@@ -44,7 +44,7 @@ export default function Page () {
   return (
     <main className="bg-black text-white">
         <Background/>
-        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-start'>
+        <div className='md:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-start'>
             <Navbar/>
             <Heading>Timeline</Heading>
             <div className='grid grid-cols-11 gap-y-5 w-full h-fit items-center justify-start mt-10 relative'>

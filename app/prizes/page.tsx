@@ -6,6 +6,7 @@ import { Heading } from '@/components/heading/Heading'
 import { FootComp } from '@/components/sections/footcomp'
 import { Background } from '@/components/UI/Background'
 import  Image  from 'next/image'
+import { IoIosArrowBack } from "react-icons/io";
 
 import investopia from "@/assets/event-images/investopia.png"
 import startupexpo from "@/assets/event-images/startupexpo.png"
@@ -21,12 +22,13 @@ import { StaticImageData } from 'next/image'
 
 export default function Page () {
 
-  
+  const [index, setIndex] = useState<number>(0);
 
     const prizes = [
         {
             event: "Investopia",
             prize: "₹75,000",
+            content: "This is Investopia. VCs come and invest.",
             img: investopia,
             link: "https://unstop.com/o/7rjas4h?lb=HT4CJecq",
             color: "bg-green-500/50",
@@ -36,6 +38,7 @@ export default function Page () {
         {
             event: "Start-up Expo",
             prize: "₹25,000",
+            content: "Pitch your startup, earn rewards!",
             img: startupexpo,
             link: "https://unstop.com/o/LmBCAch?lb=HT4CJecq",
             color: "bg-yellow-400/50",
@@ -45,6 +48,7 @@ export default function Page () {
         {
             event: "Content Creators Conclave",
             prize: "Giveaways",
+            content: "Meet your fac content creators.",
             img: content,
             link: "",
             color: "bg-red-500/50",
@@ -54,6 +58,7 @@ export default function Page () {
         {
             event: "Workshops",
             prize: "Giveaways",
+            content: "Attend and gain knowledge",
             img: workshop,
             link: "",
             color: "bg-blue-400/50",
@@ -63,6 +68,7 @@ export default function Page () {
         {
             event: "Keynote Sessions",
             prize: "Giveaways",
+            content: "Attend sessions!!",
             img: keynote,
             link: "",
             color: "bg-fuchsia-400/50",
@@ -72,6 +78,7 @@ export default function Page () {
         {
             event: "Mind Masters",
             prize: "₹10,000",
+            content: "Business quiz, get money.",
             img: mindmaster,
             link: "",
             color: "bg-sky-500/50",
@@ -81,6 +88,7 @@ export default function Page () {
         {
             event: "Chat JPG",
             prize: "₹15,000",
+            content: "Enter prompt to generate images.",
             img: chatjpg,
             link: "",
             color: "bg-orange-400/50",
@@ -90,6 +98,7 @@ export default function Page () {
         {
             event: "Pitch Perfect",
             prize: "₹15,000",
+            content: "Come up with a solution ",
             img: pitch,
             link: "",
             color: "bg-cyan-400/50",
@@ -99,6 +108,7 @@ export default function Page () {
         {
             event: "Social Media Campaign",
             prize: "₹10,000",
+            content: "Like, share and win!",
             img: social,
             link: "",
             color: "bg-teal-400/50",
@@ -112,6 +122,7 @@ export default function Page () {
     type PropTypes = {
         event: string,
         prize: string,
+        content: string,
         img: StaticImageData,
         link: string,
         color:string,
@@ -125,24 +136,75 @@ export default function Page () {
     <main className="bg-black text-white">
         <Background/>
             <Navbar/>
-        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col justify-start items-center relative z-[1]'>
+        <div className='md:p-16 px-4 py-20 flex min-h-screen flex-col justify-start items-center relative z-[1]'>
             <Heading>Events & Prizes</Heading>
             
             <div className='w-full items-center flex-col flex justify-center my-5'>
-                <h3 className='text-white text-center w-full mx-auto sm:text-[3rem] text-[2rem] font-bold' >Prizes worth </h3>
-                <h3 className='bg-gradient-to-b from-green-800 sm:text-[3.2rem] text-[2.3rem] font-bold via-green-400 to-green-600 text-transparent bg-clip-text'>₹1,50,000</h3>
+                <h3 className='text-white text-center w-full mx-auto md:text-[3rem] text-[2rem] font-bold' >Prizes worth </h3>
+                <h3 className='bg-gradient-to-b from-green-800 md:text-[3.2rem] text-[2.3rem] font-bold via-green-400 to-green-600 text-transparent bg-clip-text'>₹1,50,000</h3>
                 
-                <div className='flex flex-wrap gap-10 items-center mt-10 w-full mx-auto justify-center'>
-                    {
-                        prizes.map((item:PropTypes)=>(
-                            <a target='_blank' href={item.link} className={`w-[25rem] h-[12rem] group relative flex flex-col cursor-pointer overflow-hidden items-center justify-center ${item.color} border-blue-500/30 ${item.hoverColor} duration-200 border-t-[1.5px] border-r-[1.5px] rounded-xl`}>
-                                <Image src={item.img} alt={item.event} className=' object-fill absolute z-[-1] -bottom-28' />
-                                <h2 className='font-semibold group-hover:hidden text-[1.2rem]'>{item.event}</h2>
-                                <h2 className={`font-bold group-hover:hidden text-[2rem] ${item.text}`}>{item.prize}</h2>
-                                <h2 className={`font-bold hidden brightness-105 duration-200 group-hover:flex text-[2rem] ${item.text}`}>Register Now!</h2>
-                                </a>
-                        ))
-                    }
+
+                <div className='md:grid md:grid-flow-col md:grid-cols-5 mx-auto w-full my-5'>
+
+                    <div className='col-span-2 flex items-center justify-center gap-2'>
+                        
+                        <div className='h-[12rem] flex items-center justify-center' >
+                            {
+                                prizes.map((item:PropTypes, i)=>(
+                                    <>
+                                        {i == index &&
+                                        <div className='flex items-center justify-center mx-auto'>
+                                            <button onClick={()=>{if(index != 0)setIndex(prev => prev-1); else{setIndex(8)}}} className='rounded-full z-[100] hover:bg-white/30 p-3 duration-200'>
+                                                    <IoIosArrowBack className='text-2xl' />
+                                            </button>
+                                            <a target='_blank' href={item.link} className={`w-[23rem] max-sm:w-[15rem] max-sm:h-[10rem] h-[12rem] group relative flex flex-col cursor-pointer overflow-hidden items-center justify-center ${item.color} border-blue-500/30 ${item.hoverColor} duration-200 border-t-[1.5px] border-r-[1.5px] rounded-xl`}>
+                                                <Image src={item.img} alt={item.event} className=' object-fill absolute z-[-1] w-[19rem] -bottom-24 scale-125 ' />
+                                                <div className='flex items-center'>
+                                                    
+                                                        <h2 className={`font-bold group-hover:hidden text-[1rem]`}>{item.event}</h2>
+                                                    
+                                                </div>
+                                            </a>
+                                            <button onClick={()=>{if(index != 8)setIndex(prev => prev+1); else{setIndex(0)}}} className='z-[100] rounded-full hover:bg-white/30 p-3 duration-200'>
+                                                    <IoIosArrowBack className='text-2xl rotate-180' />
+                                                </button>
+                                        </div>
+                                        
+                                        }
+                                        </>
+                                ))
+                            }
+
+                        </div>
+                        
+
+                    </div>
+                    
+                    <div className='col-span-3 max-md:mt-5'>
+                        {prizes.map((item:PropTypes, i)=>(
+                        <> {
+                            i == index &&
+                            <div className='flex max-md:flex-col flex-row gap-4'>
+                                <div className=' overflow-hidden rounded-xl'>
+                                    <Image src={item.img} alt={item.event} className='md:h-96 md:w-96 w-full object-fill z-[-1] rounded-xl' />
+                                </div>
+                                <div>
+                                    <h2 className={`font-bold group-hover:hidden text-[1.8rem] ${item.text} `}>{item.event}</h2>
+                                    <h2 className={`font-semibold brightness-110 group-hover:hidden text-[1.5rem] ${item.text} `}>{item.prize}</h2>
+
+                                    <h3>
+                                        {item.content}
+                                    </h3>
+                                    <a target='_blank' href={item.link} className={`relative my-10 flex flex-col cursor-pointer overflow-hidden items-start justify-center text-blue-500 hover:text-blue-400 hover:-translate-y-1 font-semibold duration-200`}>
+                                        Register Now!
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                            
+                        </>
+                        ))}
+                    </div>
                 </div>
 
             </div>

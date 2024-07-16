@@ -271,7 +271,7 @@ type PropTypes = {
   return (
     <main className="bg-black text-white">
         <Background/>
-        <div className='sm:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
+        <div className='md:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
           <Navbar/>
           <Heading>Organisers</Heading>
           <div className='h-20'></div>
