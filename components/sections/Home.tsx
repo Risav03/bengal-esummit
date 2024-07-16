@@ -9,8 +9,8 @@ import rightArrow from "@/assets/rightArrow.png"
 
 export const HomePage = () => {
   return (
-    <div className='sticky top-20 overflow-y-hidden noscr max-w-screen'>
-      <div className='h-screen flex items-center justify-center w-screen overflow-x-hidden overflow-y-hidden pb-32'>
+    <div className='sticky top-20 overflow-y-hidden noscr max-w-screen w-[95%]'>
+      <div className='h-screen flex items-center justify-center mx-auto overflow-x-hidden overflow-y-hidden pb-32 '>
         <motion.div
         animate={{ x: [50, 0, 50], opacity:[0.75, 0.5, 0.75] }} // Enter view, then float right-left-right
         transition={{
