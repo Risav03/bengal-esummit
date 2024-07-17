@@ -26,7 +26,7 @@ import img18 from "@/assets/team/subrabhataSir.jpeg"
 import img19 from "@/assets/team/abhijeetsir.jpeg"
 import meghna from "@/assets/team/meghna.jpeg"
 import nira from "@/assets/team/nira.jpg"
-
+import sayandey from "@/assets/team/sayandey.jpeg"
 import pritha from "@/assets/team/pritha.jpeg"
 import dibya from "@/assets/team/dibyadarshi.png"
 import sayak from "@/assets/team/sayak.png"
@@ -194,6 +194,12 @@ export default function Page () {
         linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
         name: "Megha Biswas",
         post: "Social Media Lead"
+      },
+      {
+        img: sayandey,
+        linkedIn: "",
+        name: "Sayan Dey",
+        post: "Collaboration"
       },
       {
         img: img3,
