@@ -80,7 +80,7 @@ export default function Page () {
             prize: "₹10,000",
             content: "Business quiz, get money.",
             img: mindmaster,
-            link: "",
+            link: "https://unstop.com/quiz/mind-masters-bengal-e-summit-the-ultimate-business-quiz-institute-of-engineering-and-management-1074096?lb=HT4CJecq&utm_medium=Share&utm_source=shortUrl",
             color: "bg-sky-500/50",
             hoverColor: "hover:bg-sky-500/40",
             text: "bg-gradient-to-b from-sky-400 via-sky-100 to-sky-300 text-transparent bg-clip-text"
@@ -100,7 +100,7 @@ export default function Page () {
             prize: "₹15,000",
             content: "Come up with a solution ",
             img: pitch,
-            link: "",
+            link: "https://unstop.com/competitions/pitch-perfect-bengal-e-summit-2024-institute-of-engineering-and-management-1071933?lb=HT4CJecq",
             color: "bg-cyan-400/50",
             hoverColor: "hover:bg-cyan-500/40",
             text: "bg-gradient-to-b from-cyan-400 via-cyan-100 to-cyan-300 text-transparent bg-clip-text"
@@ -144,43 +144,12 @@ export default function Page () {
                 <h3 className='bg-gradient-to-b from-green-800 md:text-[3.2rem] text-[2.3rem] font-bold via-green-400 to-green-600 text-transparent bg-clip-text'>₹1,50,000</h3>
                 
 
-                <div className='md:grid md:grid-flow-col md:grid-cols-5 mx-auto w-full my-5'>
-
-                    <div className='col-span-2 flex items-center justify-center gap-2'>
-                        
-                        <div className='h-[12rem] flex items-center justify-center' >
-                            {
-                                prizes.map((item:PropTypes, i)=>(
-                                    <>
-                                        {i == index &&
-                                        <div className='flex items-center justify-center mx-auto'>
-                                            <button onClick={()=>{if(index != 0)setIndex(prev => prev-1); else{setIndex(8)}}} className='rounded-full z-[100] hover:bg-white/30 p-3 duration-200'>
-                                                    <IoIosArrowBack className='text-2xl' />
-                                            </button>
-                                            <a target='_blank' href={item.link} className={`w-[23rem] max-sm:w-[15rem] max-sm:h-[10rem] h-[12rem] group relative flex flex-col cursor-pointer overflow-hidden items-center justify-center ${item.color} border-blue-500/30 ${item.hoverColor} duration-200 border-t-[1.5px] border-r-[1.5px] rounded-xl`}>
-                                                <Image src={item.img} alt={item.event} className=' object-fill absolute z-[-1] w-[19rem] -bottom-24 scale-125 ' />
-                                                <div className='flex items-center'>
-                                                    
-                                                        <h2 className={`font-bold group-hover:hidden text-[1rem]`}>{item.event}</h2>
-                                                    
-                                                </div>
-                                            </a>
-                                            <button onClick={()=>{if(index != 8)setIndex(prev => prev+1); else{setIndex(0)}}} className='z-[100] rounded-full hover:bg-white/30 p-3 duration-200'>
-                                                    <IoIosArrowBack className='text-2xl rotate-180' />
-                                                </button>
-                                        </div>
-                                        
-                                        }
-                                        </>
-                                ))
-                            }
-
-                        </div>
-                        
-
-                    </div>
+                <div className='mx-auto w-full my-5 flex gap-5 items-center justify-center'>
                     
-                    <div className='col-span-3 max-md:mt-5'>
+                        <button onClick={()=>{if(index != 0)setIndex(prev => prev-1); else{setIndex(8)}}} className='rounded-full z-[100] hover:bg-white/30 p-3 duration-200'>
+                                <IoIosArrowBack className='text-2xl' />
+                        </button>
+                    <div className='max-md:mt-5 md:w-[50rem] h-[30rem] bg-blue-500/10 rounded-xl p-4'>
                         {prizes.map((item:PropTypes, i)=>(
                         <> {
                             i == index &&
@@ -189,8 +158,8 @@ export default function Page () {
                                     <Image src={item.img} alt={item.event} className='md:h-96 md:w-96 w-full object-fill z-[-1] rounded-xl' />
                                 </div>
                                 <div>
-                                    <h2 className={`font-bold group-hover:hidden text-[1.8rem] ${item.text} `}>{item.event}</h2>
-                                    <h2 className={`font-semibold brightness-110 group-hover:hidden text-[1.5rem] ${item.text} `}>{item.prize}</h2>
+                                    <h2 className={`font-bold group-hover:hidden text-[1.5rem] ${item.text} `}>{item.event}</h2>
+                                    <h2 className={`font-semibold brightness-110 group-hover:hidden text-[1.3rem] ${item.text} `}>{item.prize}</h2>
 
                                     <h3>
                                         {item.content}
@@ -205,6 +174,9 @@ export default function Page () {
                         </>
                         ))}
                     </div>
+                        <button onClick={()=>{if(index != 8)setIndex(prev => prev+1); else{setIndex(0)}}} className='z-[100] rounded-full hover:bg-white/30 p-3 duration-200'>
+                            <IoIosArrowBack className='text-2xl rotate-180' />
+                        </button>
                 </div>
 
             </div>
