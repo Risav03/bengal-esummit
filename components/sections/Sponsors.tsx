@@ -8,7 +8,7 @@ export const Sponsors = () => {
             <Heading>Our Collaborators</Heading>
         </div>
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-blue-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-blue-900 via-blue-700 to-blue-800'>
-            <h1 className='bg-gradient-to-b from-blue-600 via-blue-200 to-blue-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Techinal</h1>
+            <h1 className='bg-gradient-to-b from-blue-600 via-blue-200 to-blue-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Technical</h1>
             <div>
                 <h2 className='text-center font-semibold text-[1.5rem]'>-- //   Will be added later   \\ --</h2>
             </div>
