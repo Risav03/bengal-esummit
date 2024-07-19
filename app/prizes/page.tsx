@@ -16,7 +16,7 @@ import keynote from "@/assets/event-images/keynote.png"
 import mindmaster from "@/assets/event-images/mindmaster.png"
 import chatjpg from "@/assets/event-images/chatjpg.png"
 import pitch from "@/assets/event-images/pitch.png"
-import social from "@/assets/event-images/social.png"
+import social from "@/assets/event-images/social supernova.jpeg"
 
 import { StaticImageData } from 'next/image'
 
@@ -106,7 +106,7 @@ export default function Page () {
             text: "bg-gradient-to-b from-cyan-400 via-cyan-100 to-cyan-300 text-transparent bg-clip-text"
         },
         {
-            event: "Social Media Campaign",
+            event: "Social SuperNova",
             prize: "₹10,000",
             content: "Like, share and win!",
             img: social,
