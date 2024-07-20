@@ -17,11 +17,11 @@ import shaw from '@/assets/sponsors/FOOD/SHAW.jpeg'
 
 
 const sponsorList = [
-    Bims,IIM,IIT,mantra,msme,agar,dgp
+    Bims,IIM,IIT,agar,dgp
   ];
 
 const foodList = [
-    campa,kfc,pizza,shaw
+    campa,kfc,shaw
   ];
   
 
@@ -33,20 +33,20 @@ export const Sponsors = () => {
         </div>
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-blue-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-blue-900 via-blue-700 to-blue-800'>
             <h1 className='bg-gradient-to-b from-blue-600 via-blue-200 to-blue-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Ecell Collaborators</h1>
-            <div className='my-20 w-[90%] mx-auto grid grid-cols-4 items-center justify-center max-md:grid-cols-2 gap-20'>
+            <div className='my-20 w-[90%]  mx-auto grid grid-cols-5 items-center justify-center max-md:grid-cols-2 gap-20 '>
             {sponsorList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-white'/>
+                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
                 </div>))}
             </div>
         </div>
 
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-gray-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-gray-900 via-gray-700 to-gray-800'>
             <h1 className='bg-gradient-to-b from-gray-700 via-gray-300 to-gray-500 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Food & Beverages</h1>
-            <div className='my-20 w-[90%] mx-auto grid grid-cols-4 items-center justify-center max-md:grid-cols-2 gap-20'>
+            <div className='my-20 w-[90%] mx-auto grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
             {foodList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-white'/>
+                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
                 </div>))}
             </div>
         </div>
