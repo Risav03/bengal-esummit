@@ -7,6 +7,7 @@ import mantra from '@/assets/sponsors/ECELL/MANTRAS.jpeg'
 import msme from '@/assets/sponsors/ECELL/MSME.jpeg'
 import agar from '@/assets/sponsors/ECELL/NIT AGARTALA.jpeg'
 import dgp from '@/assets/sponsors/ECELL/NIT DURGAPUR.jpeg'
+import kiit from '@/assets/sponsors/ECELL/KIIT.jpeg'
 import Image from 'next/image'
 
 import campa from '@/assets/sponsors/FOOD/CAMPA.jpeg'
@@ -17,7 +18,7 @@ import shaw from '@/assets/sponsors/FOOD/SHAW.jpeg'
 
 
 const sponsorList = [
-    Bims,IIM,IIT,mantra,msme,agar,dgp
+    Bims,IIM,IIT,mantra,msme,agar,dgp,kiit
   ];
 
 const foodList = [
@@ -68,7 +69,7 @@ export const Sponsors = () => {
         </div>
 
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-orange-700 w-full  mt-10 sticky top-0 bg-gradient-to-b from-orange-900 via-orange-700 to-orange-800'>
-            <h1 className='bg-gradient-to-b from-orange-600 via-orange-200 to-orange-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Platform</h1>
+            <h1 className='bg-gradient-to-b from-orange-600 via-orange-200 to-orange-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Online Platform Partner</h1>
             <div>
                 <h2 className='text-center font-semibold text-[1.5rem]'>-- //   Will be added later   \\ --</h2>
             </div>
