@@ -33,6 +33,7 @@ import sayak from "@/assets/team/sayak.png"
 import soham from "@/assets/team/soham.jpeg"
 import tannistha from "@/assets/team/tann.jpeg"
 import ritesh from "@/assets/team/Ritesh.jpeg"
+import sappy from "@/assets/team/sappy.jpeg"
 import gobinda from "@/assets/team/gobinda.jpeg"
 import sutanu from "@/assets/team/sutanu.jpeg"
 
@@ -175,10 +176,20 @@ export default function Page () {
       name: "Sayak Sarkar",
       post: "Web Dev"
     },
+    
     {img: img13,
       linkedIn: "https://www.linkedin.com/in/saranya-chattopadhyay-06a153230/",
       name: "Saranya Chattopadhyay",
-      post: "Outreach Lead"},
+      post: "Outreach Lead"
+    },
+
+    {
+      img: sappy,
+      linkedIn: "https://www.linkedin.com/in/saptarshi-pal-256178228/",
+      name: "Saptarshi Pal",
+      post: "Web Dev"
+    },
+
       {
         img: ritesh,
         linkedIn: "https://www.linkedin.com/in/ritesh-nandy-link/",
