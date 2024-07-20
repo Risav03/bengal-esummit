@@ -21,7 +21,7 @@ const sponsorList = [
   ];
 
 const foodList = [
-    campa,kfc,pizza,shaw
+    campa,kfc,shaw
   ];
   
 
