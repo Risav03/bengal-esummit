@@ -44,7 +44,7 @@ export const Sponsors = () => {
             <div className='my-20 w-[90%] mx-auto grid grid-cols-4 items-center justify-center max-md:grid-cols-3 gap-20'>
             {sponsorList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
+                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
                 </div>))}
             </div>
         </div>
@@ -54,7 +54,7 @@ export const Sponsors = () => {
             <div className='my-20 w-[90%] mx-auto grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
             {foodList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
+                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
                 </div>))}
             </div>
         </div>
@@ -64,7 +64,7 @@ export const Sponsors = () => {
             <div className='my-20 w-[80%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
             {medialist.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-transparent'/>
+                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-white'/>
                 </div>))}
             </div>
         </div>
@@ -76,7 +76,7 @@ export const Sponsors = () => {
             <div className='my-20 w-[40%] mx-auto grid grid-cols-1 items-center justify-center max-md:grid-cols-1 gap-20'>
             {socialPart.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-transparent'/>
+                <Image src={item} alt="partner1" className='w-full h-full  object-contain bg-transparent'/>
                 </div>))}
             </div> 
                 
