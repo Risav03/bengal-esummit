@@ -40,7 +40,7 @@ export const Sponsors = () => {
             <Heading>Our Collaborators</Heading>
         </div>
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-blue-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-blue-900 via-blue-700 to-blue-800'>
-            <h1 className='bg-gradient-to-b from-blue-600 via-blue-200 to-blue-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Ecell Collaborators</h1>
+            <h1 className='bg-gradient-to-b from-blue-600 via-blue-200 to-blue-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >E-cell Collaborators</h1>
             <div className='my-20 w-[90%] mx-auto grid grid-cols-5 items-center justify-center max-md:grid-cols-2 gap-20'>
             {sponsorList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
