@@ -14,7 +14,15 @@ import campa from '@/assets/sponsors/FOOD/CAMPA.jpeg'
 import kfc from '@/assets/sponsors/FOOD/KFC.jpeg'
 import shaw from '@/assets/sponsors/FOOD/SHAW.jpeg'
 
+import friends from '@/assets/sponsors/Media/friendsFM.jpeg'
+import mim from '@/assets/sponsors/Media/mim.jpeg'
+import kol from '@/assets/sponsors/Media/kolkata.png'
 
+const medialist =[friends,mim]
+
+const socialPart=[
+kol
+]
 
 const sponsorList = [
     Bims,IIM,IIT,agar,dgp
@@ -53,8 +61,11 @@ export const Sponsors = () => {
 
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-yellow-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-yellow-900 via-yellow-700 to-yellow-800'>
             <h1 className='bg-gradient-to-b from-yellow-600 via-yellow-200 to-yellow-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Media</h1>
-            <div>
-                <h2 className='text-center font-semibold text-[1.5rem]'>-- //   Will be added later   \\ --</h2>
+            <div className='my-20 w-[90%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
+            {medialist.map((item, index)=>(
+                <div className=' overflow-hidden w-full h-full'>
+                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
+                </div>))}
             </div>
         </div>
 
@@ -62,7 +73,12 @@ export const Sponsors = () => {
             <h1 className='bg-gradient-to-b from-gray-600 via-gray-200 to-gray-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Exclusive Social Media Platform </h1>
             <h1 className='bg-gradient-to-b from-yellow-600 via-yellow-200 to-yellow-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >⭐️⭐️⭐️⭐️⭐️</h1>
             <div>
-                
+            <div className='my-20 w-[90%] mx-auto grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
+            {socialPart.map((item, index)=>(
+                <div className=' overflow-hidden w-full h-full'>
+                <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
+                </div>))}
+            </div> 
                 
             </div>
         </div>
