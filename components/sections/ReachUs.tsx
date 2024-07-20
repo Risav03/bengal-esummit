@@ -7,7 +7,7 @@ export const ReachUs = () => {
             <Heading>Reach Us</Heading>
             <div className='my-10'>
               <h2 className='text-2xl text-center'>
-                Email Us 👉🏻 <a href="mailto:bengalesummitl@gmail.com" className='text-blue-500 underline'>bengalesummitl@gmail.com</a>
+                Email Us 👉🏻 <a href="mailto:bengalesummit@gmail.com" className='text-blue-500 underline'>bengalesummit@gmail.com</a>
               </h2>
             </div>
             <div className='md:w-[40rem] w-[95%] h-[25rem] border-[1px] rounded-xl border-slate-600 shadow-xl shadow-slate-600/50 my-10'>
