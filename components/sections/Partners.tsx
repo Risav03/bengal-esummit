@@ -24,7 +24,7 @@ export const Partners = () => {
         <div className='my-20 w-[90%] mx-auto grid grid-cols-5 items-center justify-center max-md:grid-cols-2 gap-20'>
           {partnersList.map((item, index)=>(
             <div className=' overflow-hidden w-full h-full'>
-            <Image src={item} alt="partner1" className='w-full h-full object-contain bg-white'/>
+            <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
           </div>))}
         </div>
     </div>
