@@ -7,7 +7,7 @@ import mantra from '@/assets/sponsors/ECELL/MANTRAS.jpeg'
 import msme from '@/assets/sponsors/ECELL/MSME.jpeg'
 import agar from '@/assets/sponsors/ECELL/NIT AGARTALA.jpeg'
 import dgp from '@/assets/sponsors/ECELL/NIT DURGAPUR.jpeg'
-import kiit from '@/assets/sponsors/ECELL/KIIT.jpeg'
+
 import Image from 'next/image'
 
 import campa from '@/assets/sponsors/FOOD/CAMPA.jpeg'
@@ -17,7 +17,7 @@ import shaw from '@/assets/sponsors/FOOD/SHAW.jpeg'
 
 
 const sponsorList = [
-    Bims,IIM,IIT,agar,dgp,kiit
+    Bims,IIM,IIT,agar,dgp
   ];
 
 const foodList = [
