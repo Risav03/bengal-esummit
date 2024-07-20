@@ -41,7 +41,7 @@ export const Sponsors = () => {
         </div>
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-blue-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-blue-900 via-blue-700 to-blue-800'>
             <h1 className='bg-gradient-to-b from-blue-600 via-blue-200 to-blue-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >E-cell Collaborators</h1>
-            <div className='my-20 w-[90%] mx-auto grid grid-cols-5 items-center justify-center max-md:grid-cols-2 gap-20'>
+            <div className='my-20 w-[90%] mx-auto grid grid-cols-4 items-center justify-center max-md:grid-cols-3 gap-20'>
             {sponsorList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
                 <Image src={item} alt="partner1" className='w-full h-full object-contain bg-black'/>
@@ -61,7 +61,7 @@ export const Sponsors = () => {
 
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-yellow-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-yellow-900 via-yellow-700 to-yellow-800'>
             <h1 className='bg-gradient-to-b from-yellow-600 via-yellow-200 to-yellow-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Media</h1>
-            <div className='my-20 w-[90%] mx-72 grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
+            <div className='my-20 w-[80%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
             {medialist.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
                 <Image src={item} alt="partner1" className='w-full h-full object-contain bg-transparent'/>
@@ -73,7 +73,7 @@ export const Sponsors = () => {
             <h1 className='bg-gradient-to-b from-gray-600 via-gray-200 to-gray-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Exclusive Social Media Platform </h1>
             <h1 className='bg-gradient-to-b from-yellow-600 via-yellow-200 to-yellow-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >⭐️⭐️⭐️⭐️⭐️</h1>
             <div>
-            <div className='my-20 w-[40%] mx-auto grid grid-cols-1 items-center justify-center max-md:grid-cols-2 gap-20'>
+            <div className='my-20 w-[40%] mx-auto grid grid-cols-1 items-center justify-center max-md:grid-cols-1 gap-20'>
             {socialPart.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
                 <Image src={item} alt="partner1" className='w-full h-full object-contain bg-transparent'/>
