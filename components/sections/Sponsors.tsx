@@ -64,7 +64,7 @@ export const Sponsors = () => {
             <div className='my-20 w-[80%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
             {medialist.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-white'/>
+                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
                 </div>))}
             </div>
         </div>
