@@ -35,7 +35,7 @@ export default function Page () {
         <Background/>
         <div className='md:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
             <Navbar />
-            <Heading>Creators</Heading>
+            <Heading>Creators & Entrepreneur</Heading>
             <div>Revealing Soon</div>
         </div>
         <FootComp/>
