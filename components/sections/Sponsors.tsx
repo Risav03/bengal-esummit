@@ -29,7 +29,7 @@ const sponsorList = [
   ];
 
 const foodList = [
-    campa,kfc,shaw
+    campa,kfc
   ];
   
 
@@ -51,10 +51,10 @@ export const Sponsors = () => {
 
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-gray-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-gray-900 via-gray-700 to-gray-800'>
             <h1 className='bg-gradient-to-b from-gray-700 via-gray-300 to-gray-500 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Food & Beverages</h1>
-            <div className='my-20 w-[90%] mx-auto grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
+            <div className='my-20 w-[70%]  mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20 align-middle'>
             {foodList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
+                <Image src={item} alt="partner1" className='w-[20rem] h-full rounded-xl border-[2px] object-contain  bg-black'/>
                 </div>))}
             </div>
         </div>
