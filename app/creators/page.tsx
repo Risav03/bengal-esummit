@@ -27,10 +27,14 @@ import sidhu from '@/assets/creators/sidhu.jpeg'
 import mukul from "@/assets/creators/mukul.jpeg"
 import saikat from '@/assets/creators/saikat.jpeg'
 import dev from '@/assets/creators/dev.jpeg'
+import anus from '@/assets/creators/anusmita.jpeg'
+import chater from '@/assets/creators/chaterjee.jpeg'
+import  varsha from '@/assets/creators/varsha.jpeg'
+
 
 const creatorList=[
   sidhu,anindya,antidote,arindom,avipsu,eatverse,kiran,kolkata,kumaresh,preeti,prerana,priyanka,rahul,richen,
-  rishi,sambeet,sayanta,dev,mukul,saikat
+  rishi,sambeet,sayanta,dev,mukul,saikat ,anus,chater,varsha
 ]
 
 export default function Page () {
