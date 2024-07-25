@@ -30,12 +30,19 @@ import dev from '@/assets/creators/dev.jpeg'
 import anus from '@/assets/creators/anusmita.jpeg'
 import chater from '@/assets/creators/chaterjee.jpeg'
 import  varsha from '@/assets/creators/varsha.jpeg'
+import inside from '@/assets/creators/inside-out.jpeg'
+
+
 
 
 const creatorList=[
-  sidhu,anindya,antidote,arindom,avipsu,eatverse,kiran,kolkata,kumaresh,preeti,prerana,priyanka,rahul,richen,
-  rishi,sambeet,sayanta,dev,mukul,saikat ,anus,chater,varsha
+  sidhu,anindya,antidote,arindom,kiran,kolkata,preeti,prerana,rahul,
+  rishi,sayanta,dev,mukul,saikat ,anus,chater,varsha
 ]
+
+const enterList=[
+  avipsu,eatverse,kumaresh,priyanka,richen,sambeet,inside
+] 
 
 export default function Page () {
 
@@ -52,6 +59,13 @@ export default function Page () {
                 </div>))}
             </div> 
         </div>
+        <div className='my-20 w-[80%] mx-auto grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
+            {enterList.map((item, index)=>(
+                <div className=' overflow-hidden w-full h-full'>
+                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
+                </div>))}
+            </div> 
+        
         <FootComp/>
     </main>
   )
