@@ -24,11 +24,13 @@ import rishi from '@/assets/creators/rishi.jpeg'
 import sambeet from '@/assets/creators/sambeet.jpeg'
 import sayanta from '@/assets/creators/sayanta.jpeg'
 import sidhu from '@/assets/creators/sidhu.jpeg'
-
+import mukul from "@/assets/creators/mukul.jpeg"
+import saikat from '@/assets/creators/saikat.jpeg'
+import dev from '@/assets/creators/dev.jpeg'
 
 const creatorList=[
   sidhu,anindya,antidote,arindom,avipsu,eatverse,kiran,kolkata,kumaresh,preeti,prerana,priyanka,rahul,richen,
-  rishi,sambeet,sayanta
+  rishi,sambeet,sayanta,dev,mukul,saikat
 ]
 
 export default function Page () {
