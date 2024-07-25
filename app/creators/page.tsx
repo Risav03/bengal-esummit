@@ -40,7 +40,7 @@ export default function Page () {
         <Background/>
         <div className='md:p-16 px-4 py-20 flex min-h-screen flex-col items-center relative z-[1] justify-between'>
             <Navbar />
-            <Heading>Creators & Entrepreneur</Heading>
+            <Heading>Creators & Entrepreneurs</Heading>
             <div className='my-20 w-[80%] mx-auto grid grid-cols-3 items-center justify-center max-md:grid-cols-2 gap-20'>
             {creatorList.map((item, index)=>(
                 <div className=' overflow-hidden w-full h-full'>
