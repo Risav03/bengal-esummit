@@ -37,12 +37,9 @@ import inside from '@/assets/creators/inside-out.jpeg'
 
 const creatorList=[
   sidhu,anindya,antidote,arindom,kiran,kolkata,preeti,prerana,rahul,
-  rishi,sayanta,dev,mukul,saikat ,anus,chater,varsha
+  rishi,sayanta,dev,mukul,saikat ,anus,chater,varsha,avipsu,eatverse,kumaresh,priyanka,richen,sambeet,inside
 ]
 
-const enterList=[
-  avipsu,eatverse,kumaresh,priyanka,richen,sambeet,inside
-] 
 
 export default function Page () {
 
@@ -59,14 +56,7 @@ export default function Page () {
                 </div>))}
             </div> 
         </div>
-        <div>
-            <div className='my-20 w-[80%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
-            {enterList.map((item, index)=>(
-                <div className=' overflow-hidden w-full h-full'>
-                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
-                </div>))}
-            </div>
-        </div>
+   
         <FootComp/>
     </main>
   )
