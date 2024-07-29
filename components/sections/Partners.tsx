@@ -3,7 +3,7 @@ import { Heading } from '../heading/Heading'
 import Image from 'next/image'
 
 import casa from '../../assets/partners/casa_amore.png'
-import dm4 from '../../assets/partners/d4m.png'
+import dm4 from '../../assets/partners/gdg.jpg'
 import ecell from '../../assets/partners/ecell.jpg'
 import ia from '../../assets/partners/IA.jpg'
 import iedc from '../../assets/partners/iedc.png'
