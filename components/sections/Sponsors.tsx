@@ -22,6 +22,9 @@ import B from '@/assets/sponsors/Media/B-Prod.jpg'
 import momo from '@/assets/sponsors/FOOD/WOW-momo.jpg'
 import china from '@/assets/sponsors/FOOD/wow China.jpg'
 
+import dri from '@/assets/sponsors/Travel/Drivers.png'
+import wee from '@/assets/sponsors/Travel/wee.png'
+
 const medialist =[friends,mim,B]
 
 const socialPart=[
@@ -36,6 +39,9 @@ const foodList = [
     campa,kfc,momo,china
   ];
   
+  const travelist=[
+dri,wee
+  ]
 
 export const Sponsors = () => {
   return (
@@ -72,7 +78,15 @@ export const Sponsors = () => {
                 </div>))}
             </div>
         </div>
-
+        <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-green-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-green-900 via-green-700 to-green-800'>
+            <h1 className='bg-gradient-to-b from-green-600 via-green-200 to-green-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Travel and Mobility</h1>
+            <div className='my-20 w-[80%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
+            {travelist.map((item, index)=>(
+                <div className=' overflow-hidden w-full h-full'>
+                <Image src={item} alt="partner1" className='w-full h-full rounded-xl border-[2px] object-contain bg-black'/>
+                </div>))}
+            </div>
+        </div>
         <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-gray-600 w-full  my-10 sticky top-0 bg-gradient-to-b from-gray-700 via-gray-500 to-gray-600'>
             <h1 className='bg-gradient-to-b from-gray-600 via-gray-200 to-gray-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Exclusive Social Media Platform </h1>
             <h1 className='bg-gradient-to-b from-yellow-600 via-yellow-200 to-yellow-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >⭐️⭐️⭐️⭐️⭐️</h1>
