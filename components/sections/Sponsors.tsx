@@ -23,7 +23,7 @@ import momo from '@/assets/sponsors/FOOD/WOW-momo.jpg'
 import china from '@/assets/sponsors/FOOD/wow China.jpg'
 
 import dri from '@/assets/sponsors/Travel/Drivers.png'
-import wee from '@/assets/sponsors/Travel/wee.png'
+import wee from '@/assets/sponsors/Travel/wee.jpg'
 
 const medialist =[friends,mim,B]
 
@@ -78,7 +78,7 @@ export const Sponsors = () => {
                 </div>))}
             </div>
         </div>
-        <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-green-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-green-900 via-green-700 to-green-800'>
+        <div className='md:px-20 px-4 md:pt-16 pt-20 rounded-t-xl border-t-[2px] min-h-screen border-gray-700 w-full  my-10 sticky top-0 bg-gradient-to-b from-gray-900 via-gray-700 to-gray-800'>
             <h1 className='bg-gradient-to-b from-green-600 via-green-200 to-green-400 text-transparent bg-clip-text text-center w-full mx-auto md:text-[3.3rem] text-[2.3rem] font-bold' >Travel and Mobility</h1>
             <div className='my-20 w-[80%] mx-auto grid grid-cols-2 items-center justify-center max-md:grid-cols-2 gap-20'>
             {travelist.map((item, index)=>(
@@ -96,8 +96,7 @@ export const Sponsors = () => {
                 <div className=' overflow-hidden w-full h-full'>
                 <Image src={item} alt="partner1" className='w-full h-full  object-contain bg-transparent'/>
                 </div>))}
-            </div> 
-                
+            </div>  
             </div>
         </div>
 
