@@ -206,24 +206,14 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/soham-sengupta-306103228/",
       name: "Soham Sengupta",
       post: "Graphics Lead"},
-      {
-        img: img4,
-        linkedIn: "https://www.linkedin.com/in/megha-biswas-0079a8243/",
-        name: "Megha Biswas",
-        post: "Social Media Lead"
-      },
+      
       {
         img: sayandey,
         linkedIn: "",
         name: "Sayan Dey",
         post: "Collaboration"
       },
-      {
-        img: img3,
-        linkedIn: "https://www.linkedin.com/in/spandan-sarkar-65523322a/",
-        name: "Spandan Sarkar",
-        post: "Collaboration"
-      },
+      
 
     {
       img: dibya,
@@ -250,12 +240,6 @@ export default function Page () {
       linkedIn: "https://www.linkedin.com/in/prerona-paul-96bb90289/",
       name: "Prerona Paul",
       post: "PR Lead"
-    },
-    {
-      img: nira,
-      linkedIn: "https://www.linkedin.com/in/nirajana-pal-903338274/",
-      name: "Nirajana Pal",
-      post: "Content and Graphics"
     },
   
     {
