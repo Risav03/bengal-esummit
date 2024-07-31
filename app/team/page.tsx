@@ -25,7 +25,7 @@ import img17 from "@/assets/team/maloy.jpg"
 import img18 from "@/assets/team/subrabhataSir.jpeg"
 import img19 from "@/assets/team/abhijeetsir.jpeg"
 import meghna from "@/assets/team/meghna.jpeg"
-import nira from "@/assets/team/nira.jpg"
+import arkaprobho from "@/assets/team/arkaprobho.png"
 import sayandey from "@/assets/team/sayandey.jpeg"
 import pritha from "@/assets/team/pritha.jpeg"
 import dibya from "@/assets/team/dibyadarshi.png"
@@ -211,6 +211,12 @@ export default function Page () {
         img: sayandey,
         linkedIn: "",
         name: "Sayan Dey",
+        post: "Collaboration"
+      },
+      {
+        img: arkaprobho,
+        linkedIn: "",
+        name: "Arkaprobho Laha",
         post: "Collaboration"
       },
       
