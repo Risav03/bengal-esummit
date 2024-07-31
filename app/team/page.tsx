@@ -82,7 +82,10 @@ export default function Page () {
       linkedIn: "https://in.linkedin.com/in/avijit-bose-29328977",
       name: "Prof. Avijit Bose",
       post: "Event Organiser"
-    }, {
+    }
+
+      const faculty coordinator = {
+    
       img: indranil,
       linkedIn: "https://www.linkedin.com/in/dr-indranil-maity-0860b662/",
       name: "Prof. Dr. Indranil Maity",
@@ -220,14 +223,6 @@ export default function Page () {
         post: "Collaboration"
       },
       
-
-    {
-      img: dibya,
-      linkedIn: "https://www.linkedin.com/in/dibyadarshi-das-b2b985227/",
-      name: "Dibyadarshi Das",
-      post: "Collaboration"
-    },
-    
        {
       img: img8,
       linkedIn: "https://www.linkedin.com/in/anuran-de-7b7083286/",
