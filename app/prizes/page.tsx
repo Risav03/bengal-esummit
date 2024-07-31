@@ -27,7 +27,7 @@ export default function Page () {
     const prizes = [
         {
             event: "Investopia",
-            prize: "₹75,000",
+            prize: "₹40,000",
             content: "This is Investopia. VCs come and invest.",
             img: investopia,
             link: "https://unstop.com/o/7rjas4h?lb=HT4CJecq",
@@ -37,7 +37,7 @@ export default function Page () {
         },
         {
             event: "Start-up Expo",
-            prize: "₹25,000",
+            prize: "₹20,000",
             content: "Pitch your startup, earn rewards!",
             img: startupexpo,
             link: "https://unstop.com/o/LmBCAch?lb=HT4CJecq",
@@ -57,7 +57,7 @@ export default function Page () {
         },
         {
             event: "Workshops",
-            prize: "Giveaways",
+            prize: "Certificates",
             content: "Attend and gain knowledge",
             img: workshop,
             link: "",
@@ -67,7 +67,7 @@ export default function Page () {
         },
         {
             event: "Keynote Sessions",
-            prize: "Giveaways",
+            prize: "Certificatess",
             content: "Attend sessions!!",
             img: keynote,
             link: "",
@@ -77,7 +77,7 @@ export default function Page () {
         },
         {
             event: "Mind Masters",
-            prize: "₹10,000",
+            prize: "₹8,000",
             content: "Business quiz, get money.",
             img: mindmaster,
             link: "https://unstop.com/quiz/mind-masters-bengal-e-summit-the-ultimate-business-quiz-institute-of-engineering-and-management-1074096?lb=HT4CJecq&utm_medium=Share&utm_source=shortUrl",
@@ -87,7 +87,7 @@ export default function Page () {
         },
         {
             event: "Chat JPG",
-            prize: "₹15,000",
+            prize: "₹12,000",
             content: "Enter prompt to generate images.",
             img: chatjpg,
             link: "",
@@ -97,7 +97,7 @@ export default function Page () {
         },
         {
             event: "Pitch Perfect",
-            prize: "₹15,000",
+            prize: "₹12,000",
             content: "Come up with a solution ",
             img: pitch,
             link: "https://unstop.com/competitions/pitch-perfect-bengal-e-summit-2024-institute-of-engineering-and-management-1071933?lb=HT4CJecq",
@@ -107,7 +107,7 @@ export default function Page () {
         },
         {
             event: "Social SuperNova",
-            prize: "₹10,000",
+            prize: "₹8,000",
             content: "Like, share and win!",
             img: social,
             link: "",
